@@ -7,7 +7,7 @@
   
   ### Select ALL Columns
  Use `*` to inspect all the columns in a table.
-**example** Show all records from the `language` table from the `dvd_rentals` schema.
+**example:** Show all records from the `language` table from the `dvd_rentals` schema.
 ```
 SELECT *
 FROM dvd_rental. language;
@@ -24,14 +24,14 @@ language_id,
 name
 FROM dvd_rentals.language;
 ```
-**! good to know!** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection.
+**! good to know !** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection.
 
 ---
 
   ### Limit Output Rows 
 When developing and testing new exploratory queries and uncertain about what sort of data we
  are dealing with  always limit output. Not limiting outputs on big data set queries could crash the entire system causing serious backlog.
-**example: ** Show the first 10 rows from the `actor` tables.
+**example :** Show the first 10 rows from the `actor` tables.
 ```
 SELECT
 language_id,
@@ -39,8 +39,7 @@ name
 FROM  dvd_rentals.language
 LIMIT 10;
 ```
-**! good to know**
-Some SQL flavours like SQL Server or Teradata use **TOP** instead of **LIMIT** and it goes in the front of the **SELECT** statement, like this: 
+**! good to know !** Some SQL flavours like SQL Server or Teradata use **TOP** instead of **LIMIT** and it goes in the front of the **SELECT** statement, like this: 
 ```
 SELECT
 Top 10*
@@ -72,7 +71,7 @@ ORDER BY 1
 LIMIT 10;
 ```
 
----
+# **! good to know !**
 
  ### Sort by Descending
  To reverse the sort order use **DESC** 
@@ -228,7 +227,7 @@ ORDER BY column_b, column_a DESC;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzI1Mjk0MiwtMTk0MjA0NTM3MywtNj
-U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
-NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTE1NjgwNTE4NzIsLTE5NDIwNDUzNzMsLT
+Y1NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMy
+NDc2MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
 -->
