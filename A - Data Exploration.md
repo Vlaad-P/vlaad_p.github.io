@@ -63,15 +63,14 @@ LIMIT 10;
 
  ### Sort by Numeric / Date Columns
  Sorting any numerical / date / timestamp columns is done from lowest to highest or latest to newest.  
-We can refer to the **ORDER BY** column by it's  position in the final resulting output (in this case 1).
+
 ```
 SELECT total_sales
 FROM dvd_rentals.sales_by_film_category
 ORDER BY 1
 LIMIT 10;
 ```
-
-# **! good to know !**
+**! good to know !** We can refer to the **ORDER BY** column by it's  position in the final resulting output (in this case 1).
 
  ### Sort by Descending
  To reverse the sort order use **DESC** 
@@ -227,7 +226,7 @@ ORDER BY column_b, column_a DESC;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjgwNTE4NzIsLTE5NDIwNDUzNzMsLT
-Y1NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMy
-NDc2MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbMjAyNTUwNzg5MywtMTk0MjA0NTM3MywtNj
+U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
+NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
