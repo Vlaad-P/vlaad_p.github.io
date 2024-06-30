@@ -26,7 +26,8 @@ language_id,
 name
 FROM dvd_rentals.language;
 ```
-**Good to know** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
+**!Good to know**
+Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
 
 ---
 
@@ -42,7 +43,8 @@ name
 FROM  dvd_rentals.language
 LIMIT 10;
 ```
-**Good to Know** Some SQL flavours like SQL Server or Teradata use **TOP** instead of **LIMIT** and it goes in the front of the **SELECT** statement, like this: 
+**!Good to Know**
+Some SQL flavours like SQL Server or Teradata use **TOP** instead of **LIMIT** and it goes in the front of the **SELECT** statement, like this: 
 ```
 SELECT
 Top 10*
@@ -117,7 +119,7 @@ SELECT * FROM raw_data;
 SELECT * FROM sample_table
 ORDER BY column_a, column_b
 ```
-**output**
+***output***
  ### Example Sorting Questions
  
  
@@ -162,7 +164,7 @@ ORDER BY column_a, column_b
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTEzNzU3NSwtMTk0MjA0NTM3MywtNj
-U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
-NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbNjk1Njg4NzMsLTE5NDIwNDUzNzMsLTY1Nz
+YxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2
+MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
 -->
