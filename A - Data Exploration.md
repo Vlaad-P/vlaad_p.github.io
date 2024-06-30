@@ -91,7 +91,13 @@ LIMIT 5;
  We can also perform a multi-level sort by specifying 2 or more columns with the ORDER BY clause. Will use the following sample table for further deep dive:
  id | column_a | column_b
  ---|---|---|
- 
+ 1|0|A
+ 2|0|B
+ 3|1|C
+ 4|1|D
+ 5|2|D
+ 6|3|D
+
  
 
 
@@ -141,7 +147,7 @@ LIMIT 5;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzQ5OTk2LC0xOTQyMDQ1MzczLC02NT
-c2MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3
-NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbLTE5MTkyNTQxMTgsLTE5NDIwNDUzNzMsLT
+Y1NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMy
+NDc2MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
 -->
