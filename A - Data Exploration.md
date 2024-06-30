@@ -183,7 +183,8 @@ ORDER BY column_b, column_a DESC;
  4|1|D
  
  ### Example Sorting Questions
- 
+ 1. Which customer_id had the latest rental_date for inventory_id = 1 and 2?
+ 2. In the `dvd_rentals.sales_by_film_category` table, which category has the highest total_sales?
  
  ## 3 - Exercises
 1. What is the `name` of the category with the highest `category_id` in the `dvd_rentals.category` table?
@@ -226,8 +227,8 @@ ORDER BY column_b, column_a DESC;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODM1OTQ4OTMsMjAyNTUwNzg5MywtMT
-k0MjA0NTM3MywtNjU3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3
-MDU2LC0xNTY3MzI0NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3Mj
-FdfQ==
+eyJoaXN0b3J5IjpbMTY2OTE5NjcxMiwtMTc4MzU5NDg5MywyMD
+I1NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3NzMz
+ODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzOD
+csLTI2Mzg0MDcyMV19
 -->
