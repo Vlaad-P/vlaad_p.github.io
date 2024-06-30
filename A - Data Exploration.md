@@ -9,10 +9,10 @@
  Use `*` to inspect all the columns in a table
 **Example**
 Show all records from the `language` table from the `dvd_rentals` schema
-````sql
+```
 SELECT *
 FROM dvd_rental. language;
-````
+```
 
 ---
 
@@ -20,12 +20,12 @@ FROM dvd_rental. language;
  Separate columns with commas and make sure the spelling of each column is correct.
   **Example**
 Show only the `language_id` and `name` columns from the `language` table
-````sql
+```
 SELECT
 language_id,
 name
 FROM dvd_rentals.language;
-````
+```
 **Good to know** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
 
 ---
@@ -35,27 +35,27 @@ When developing and testing new exploratory queries and uncertain about what sor
  are dealing with  always limit output. Not limiting outputs on big data set queries could crash the entire system causing serious backlog.
 **Example**
 Show the first 10 rows from the `actor` tables
-````sql
+```
 SELECT
 language_id,
 name
 FROM  dvd_rentals.language
 LIMIT 10;
-````
+```
 **Good to Know** Some SQL flavours like SQL Server or Teradata use **TOP** instead of **LIMIT** and it goes in the front of the **SELECT** statement, like this: 
-````sql
+```
 SELECT
 Top 10*
 name
 FROM dvd_rentals.language
 ;
-````
+```
 
  ## 2 - Sorting Query Results
  
  ### Sort by Text Columns
  By using **ORDER BY** automatically sorts text columns in alphabetical order. 
-```sql
+```
 SELECT country
 FROM dvd_rentals.country
 ORDER BY country
@@ -67,7 +67,7 @@ LIMIT 10;
  ### Sort by Numeric / Date Columns
  Sorting any numerical / date / timestamp columns is done from lowest to highest or latest to newest.  
 We can refer to the **ORDER BY** column by it's  position in the final resulting output (in this case 1)
-```sql
+```
 SELECT total_sales
 FROM dvd_rentals.sales_by_film_category
 ORDER BY 1
@@ -78,7 +78,7 @@ LIMIT 10;
 
  ### Sort by Descending
  To reverse the sort order use **DESC** 
-```sql
+```
 SELECT country
 FROM dvd_rentals.country
 ORDER BY country DESC
@@ -98,7 +98,7 @@ LIMIT 5;
  5|2|D
  6|3|D
 Creating a  TEMP table with above data
-```sql
+```
 DROP TABLE IF EXISTS sample_table;
 CREATE TEMP TABLE sample_table AS
 WITH raw_data (id, column_a, column_b) AS (VALUES)
@@ -113,7 +113,11 @@ SELECT * FROM raw_data;
 ```
 ---
 #### Sorting both ascending
-
+```
+SELECT * FROM sample_table
+ORDER BY column_a, column_b
+```
+**output**
  ### Example Sorting Questions
  
  
@@ -158,7 +162,7 @@ SELECT * FROM raw_data;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMzODM2MjYzLC0xOTQyMDQ1MzczLC02NT
-c2MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3
-NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbMTQ4MTEzNzU3NSwtMTk0MjA0NTM3MywtNj
+U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
+NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
