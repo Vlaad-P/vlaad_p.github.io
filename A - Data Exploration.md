@@ -301,6 +301,7 @@ LIMIT 5
 40792|597
 ***31390***|***596***
 
+ # A2 Record Counts & Distinct Values
 
   
 
@@ -328,7 +329,6 @@ LIMIT 5
 
 
 
- # A2 Record Counts & Distinct Values
  # A3 Identifying Duplicate Records
  # A4 Summary Statistics
  # A5 Distribution Functions
@@ -340,9 +340,9 @@ LIMIT 5
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMT
-U0MDg4NjgsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4MzU5
-NDg5MywyMDI1NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2MTQwNy
-wtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3NjEsLTE0
-OTAwMjkzODcsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbLTE4NDI5MzE5OTEsLTYzNTY4Mjk3OSwtNz
+Q4MTAzMTgxLDEwMTU0MDg4NjgsLTIwNzk5MDE3MzgsMTY2OTE5
+NjcxMiwtMTc4MzU5NDg5MywyMDI1NTA3ODkzLC0xOTQyMDQ1Mz
+czLC02NTc2MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1
+NjczMjQ3NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
 -->
