@@ -4,7 +4,7 @@
  # A1 - Select & Sort Data
  
   ## 1 - How To Query Data
-Covers simple `SELECT` statements and `ORDER BY` clause to sort the output to answer basic questions.
+Simple `SELECT` statements and `ORDER BY` clause to sort the output to answer basic questions
   ### Select ALL Columns
  Use `*` to inspect all the columns in a table.
 **example:** Show all records from the `language` table from the `dvd_rentals` schema.
@@ -340,9 +340,9 @@ LIMIT 5
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyMTk3MjksLTYzNTY4Mjk3OSwtNzQ4MT
-AzMTgxLDEwMTU0MDg4NjgsLTIwNzk5MDE3MzgsMTY2OTE5Njcx
-MiwtMTc4MzU5NDg5MywyMDI1NTA3ODkzLC0xOTQyMDQ1MzczLC
-02NTc2MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1Njcz
-MjQ3NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbNTU0NjkzNTUxLC02MzU2ODI5NzksLTc0OD
+EwMzE4MSwxMDE1NDA4ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3
+MTIsLTE3ODM1OTQ4OTMsMjAyNTUwNzg5MywtMTk0MjA0NTM3My
+wtNjU3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3
+MzI0NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
