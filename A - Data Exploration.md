@@ -139,7 +139,7 @@ ORDER BY column_a DESC, column_b
  1|0|A
  2|0|B
 #### Sorting both descending 
-```
+`
 SELECT * FROM sample_table
 ORDER BY column_a DESC, column_b DESC
 ```
@@ -181,9 +181,19 @@ ORDER BY column_b, column_a DESC;
  6|3|D
  5|2|D
  4|1|D
- 
+
  ### Example Sorting Questions
  1. Which customer_id had the latest rental_date for inventory_id = 1 and 2?
+`````
+SELECT 
+customer_id,
+inventory_id,
+last_update
+FROM dvd_rentals.rental
+ORDER BY inventory_id, last_update DESC
+LIMIT 10
+;
+```
  2. In the `dvd_rentals.sales_by_film_category` table, which category has the highest total_sales?
  
  ## 3 - Exercises
@@ -227,8 +237,8 @@ ORDER BY column_b, column_a DESC;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTE5NjcxMiwtMTc4MzU5NDg5MywyMD
-I1NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3NzMz
-ODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzOD
-csLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbNzQ5ODAxNTExLDE2NjkxOTY3MTIsLTE3OD
+M1OTQ4OTMsMjAyNTUwNzg5MywtMTk0MjA0NTM3MywtNjU3NjE0
+MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0NzYxLC
+0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
