@@ -45,9 +45,8 @@ FROM  dvd_rentals.language
 LIMIT 10;
 ````
 
- 
+ ### Exercises
 
-  ### Exercises
   
 
 
@@ -86,5 +85,6 @@ LIMIT 10;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbLTE4NzExNDc0NTcsLTE0OTAwMjkzODcsLT
+I2Mzg0MDcyMV19
 -->
