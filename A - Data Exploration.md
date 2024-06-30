@@ -142,7 +142,7 @@ ORDER BY column_a DESC, column_b
  3|1|C
  4|1|D
  1|0|A
- 3|0|B
+ 2|0|B
 #### Sorting both descending 
 ```
 SELECT * FROM sample_table
@@ -153,10 +153,10 @@ ORDER BY column_a DESC, column_b DESC
  ---|---|---|
  6|3|D
  5|2|D
- 3|1|C
  4|1|D
+ 3|1|C
+ 2|0|B
  1|0|A
- 3|0|B
 
 
 
@@ -204,7 +204,7 @@ ORDER BY column_a DESC, column_b DESC
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTc5ODQ1NCwtMTk0MjA0NTM3MywtNj
+eyJoaXN0b3J5IjpbMTk2MDQ5NTc2NiwtMTk0MjA0NTM3MywtNj
 U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
 NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
