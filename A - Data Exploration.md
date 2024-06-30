@@ -46,6 +46,7 @@ LIMIT 10;
 ````
 
  ### Exercises
+What is the `name` of the category with the highest `category_id` in the `dvd_rentals.category` table?
 
   
 
@@ -85,6 +86,6 @@ LIMIT 10;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzExNDc0NTcsLTE0OTAwMjkzODcsLT
+eyJoaXN0b3J5IjpbLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcsLT
 I2Mzg0MDcyMV19
 -->
