@@ -1,9 +1,9 @@
 
 
 
- # A1 Select & Sort Data
+ # A1 - Select & Sort Data
  
-  ## 1 How To Query Data
+  ## 1-  How To Query Data
   
   ### Select ALL Columns
   
@@ -52,7 +52,10 @@ FROM dvd_rentals.language
 ;
 ````
 
- ## 2 How To Query Data
+ ## 2 Sorting Query Results
+ ### Sort by Text Columns
+ 
+ 
  ### Exercises
 What is the `name` of the category with the highest `category_id` in the `dvd_rentals.category` table?
 
@@ -94,6 +97,6 @@ What is the `name` of the category with the highest `category_id` in the `dvd_re
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTU2MDM3OSwxNTAwMTA3MDU2LC0xNT
+eyJoaXN0b3J5IjpbLTk2NTAxMjU0MCwxNTAwMTA3MDU2LC0xNT
 Y3MzI0NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
