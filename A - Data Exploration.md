@@ -99,6 +99,7 @@ LIMIT 5;
  4|1|D
  5|2|D
  6|3|D
+
 Creating a TEMP table with above data
 ```
 DROP TABLE IF EXISTS sample_table;
@@ -231,7 +232,7 @@ ORDER BY column_b, column_a DESC;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM5MDA4MzMsLTE5NDIwNDUzNzMsLT
-Y1NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMy
-NDc2MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbOTY5MTczMjYxLC0xOTQyMDQ1MzczLC02NT
+c2MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3
+NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
 -->
