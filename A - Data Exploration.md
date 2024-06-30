@@ -20,9 +20,7 @@ FROM dvd_rental. language;
 
  Separate columns with commas and make sure the spelling of each column is correct.
  
-**Good to know** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
-
-**Example**
+ **Example**
 Show only the `language_id` and `name` columns from the `language` table
 ````sql
 SELECT
@@ -30,7 +28,7 @@ language_id,
 name
 FROM dvd_rentals.language;
 ````
-
+**Good to know** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
   ### Limit Output Rows 
 
 When developing and testing new exploratory queries and uncertain about what sort of data you are dealing with  always limit output. Not limiting outputs on big data set queries could crash the entire system causing serious backlog.
@@ -44,6 +42,7 @@ name
 FROM  dvd_rentals.language
 LIMIT 10;
 ````
+
 **Good to Know** Some SQL flavours like SQL Server or Teradata use **TOP** instead of **LIMIT** and it goes in the front of the **SELECT** statement, like this: 
 ````sql
 SELECT
@@ -93,6 +92,6 @@ What is the `name` of the category with the highest `category_id` in the `dvd_re
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDk2MjM2NDQsLTE1NjczMjQ3NjEsLT
-E0OTAwMjkzODcsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMT
+Q5MDAyOTM4NywtMjYzODQwNzIxXX0=
 -->
