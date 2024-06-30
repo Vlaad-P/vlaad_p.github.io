@@ -73,6 +73,9 @@ FROM dvd_rentals.sales_by_film_category
 ORDER BY 1
 LIMIT 10;
 ```
+
+---
+
  ### Sort by Descending
  To reverse the sort order use **DESC** 
 ```sql
@@ -81,9 +84,15 @@ FROM dvd_rentals.country
 ORDER BY country DESC
 LIMIT 5;
 ```
+
+---
+
  ### Sort by Multiple Columns
  We can also perform a multi-level sort by specifying 2 or more columns with the ORDER BY clause.
- 
+
+
+---
+
  ### Example Sorting Questions
  
  
@@ -128,7 +137,7 @@ LIMIT 5;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjIzMjEzMiwtODY3NzMzODMxLDE1MD
-AxMDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcsLTI2Mzg0
-MDcyMV19
+eyJoaXN0b3J5IjpbLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUwMD
+EwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4NywtMjYzODQw
+NzIxXX0=
 -->
