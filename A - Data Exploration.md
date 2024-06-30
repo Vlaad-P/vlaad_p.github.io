@@ -39,9 +39,11 @@ When developing and testing new exploratory queries and uncertain about what sor
 Show the first 10 rows from the `actor` tables
 ````sql
 SELECT
-language_i
-
-
+language_id,
+name
+FROM  dvd_rentals.language
+LIMIT 10;
+````
 
  
 
@@ -84,5 +86,5 @@ language_i
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjc5OTIzOSwtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
 -->
