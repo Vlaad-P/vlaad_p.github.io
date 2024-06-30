@@ -3,6 +3,10 @@
 
  # A1 Select & Sort Data
   ## 1 How To Query Data
+Use `*` to inspect all the columns in a table
+
+**Example**
+Show all records from the `language` table from the `dvd_rentals` schema
 
 
   ### Select ALL Columns
@@ -47,5 +51,5 @@
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTgxNjk0NSwtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbNjA2ODg1OTczLC0yNjM4NDA3MjFdfQ==
 -->
