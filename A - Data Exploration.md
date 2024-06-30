@@ -255,7 +255,6 @@ LIMIT 10
 **output:**
 title | length | rating | replacement_cost
  ---|---| ---|---|
-***Travel***|***16***
 CONTROL ANTHEM | 185 | G | 9.99
 CHICAGO NORTH | 185 | PG-13 | 11.99
 DARN FORRESTER|185|G|14.99|
@@ -265,10 +264,11 @@ POND SEATTLE|185|PG-13|25.99
 WORST BANGER|185|PG|26.99
 SWEET BROTHERHOOD|185|R|27.99
 GANGS PRIDE|185|PG-13|27.99
-SOLDIERS EVOLUTION|185|R
-27.99
-4. Who was the `manager` of the store with the highest `total_sales` in the `dvd_rentals.sales_by_store` table?
-5. What is the `postal_code` of the city with the 5th highest `city_id` in the `dvd_rentals.address` table?
+SOLDIERS EVOLUTION|185|R|27.99
+
+3. Who was the `manager` of the store with the highest `total_sales` in the `dvd_rentals.sales_by_store` table?
+
+4. What is the `postal_code` of the city with the 5th highest `city_id` in the `dvd_rentals.address` table?
 
 
 
@@ -313,9 +313,9 @@ SOLDIERS EVOLUTION|185|R
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDc3MzQ5MTksMTAxNTQwODg2OCwtMj
-A3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1
-MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4Mz
-EsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4Nywt
-MjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbODA1MDAzODMwLDEwMTU0MDg4NjgsLTIwNz
+k5MDE3MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5MywyMDI1NTA3
+ODkzLC0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3NzMzODMxLD
+E1MDAxMDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcsLTI2
+Mzg0MDcyMV19
 -->
