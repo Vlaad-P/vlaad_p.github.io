@@ -17,6 +17,7 @@ FROM dvd_rental. language;
 ````
 
   ### Select Specific Columns
+
  Separate columns with commas and make sure the spelling of each column is correct.
  
 **Good to know** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
@@ -31,6 +32,8 @@ FROM dvd_rentals.language;
 ````
 
   ### Limit Output Rows 
+When developing and testing new exploratory and uncertain about what sort queries always limit output 
+
   ### Exercises
   
 
@@ -70,5 +73,5 @@ FROM dvd_rentals.language;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTIzODE2MCwtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbLTMzMjg0MDc0MSwtMjYzODQwNzIxXX0=
 -->
