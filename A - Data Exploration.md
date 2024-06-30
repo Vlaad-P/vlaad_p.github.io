@@ -320,6 +320,16 @@ Used to specify a name for an expression in the select statement. Can also be us
 Identifies how many unique values there are in a specific column or table. Helps with looking at the counts or frequencies, (the number of times certain combinations occur within a dataset).
 
 ### Show Unique Column Values
+Use the `DISTINCT` keyword to obtain unique values from a deduplicated target column.
+**example :** What are the unique values for the `rating` column in the `film` table?
+```
+SELECT DISTINCT
+  rating
+FROM dvd_rentals.film_list
+;
+```
+
+
 
 ### Count of Unique Values
 ## 3 - Group By Counts
@@ -373,10 +383,10 @@ Identifies how many unique values there are in a specific column or table. Helps
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyMzUzNDUsMTg3Mjg2MDc4OSwtNjM1Nj
-gyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkwMTcz
-OCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1MDc4OTMsLT
-E5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEw
-NzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4NywtMjYzODQwNz
-IxXX0=
+eyJoaXN0b3J5IjpbLTc3MjEyMzk1MiwxODcyODYwNzg5LC02Mz
+U2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC0yMDc5OTAx
+NzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUwNzg5My
+wtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2NzczMzgzMSwxNTAw
+MTA3MDU2LC0xNTY3MzI0NzYxLC0xNDkwMDI5Mzg3LC0yNjM4ND
+A3MjFdfQ==
 -->
