@@ -100,7 +100,10 @@ LIMIT 5;
 Creating a  TEMP table with above data
 ````sql
 DROP TABLE IF EXISTS sample_table;
-CREATE TEMP TABLE sa
+CREATE TEMP TABLE sample_table AS
+WITH raw_data (id, column_a, column_b) AS (VALUES)
+
+
  
 
 
@@ -150,7 +153,7 @@ CREATE TEMP TABLE sa
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NzM1MjI3LC0xOTQyMDQ1MzczLC02NT
-c2MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3
-NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbMTIwNjYwOTM0NSwtMTk0MjA0NTM3MywtNj
+U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
+NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
