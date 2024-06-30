@@ -314,6 +314,8 @@ SELECT
 FROM dvd_rentals.film_list;
 ```
 ### Column Aliases
+“column alias” which is used to specify a name for an expression in the select statement. can also be used to name other SQL expressions such as database tables, subqueries and common table expressions (CTEs).they vastly improve SQL code readability
+
 ## 2 - DISTINCT For Unique Values
 ### Show Unique Column Values
 ### Count of Unique Values
@@ -368,7 +370,7 @@ FROM dvd_rentals.film_list;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDIxMzg5MTMsMTg3Mjg2MDc4OSwtNj
+eyJoaXN0b3J5IjpbLTE3NDc5MjYyNzEsMTg3Mjg2MDc4OSwtNj
 M1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkw
 MTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1MDc4OT
 MsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUw
