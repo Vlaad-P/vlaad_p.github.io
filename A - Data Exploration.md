@@ -32,7 +32,10 @@ FROM dvd_rentals.language;
 ````
 
   ### Limit Output Rows 
-When developing and testing new exploratory and uncertain about what sort queries always limit output 
+
+When developing and testing new exploratory queries and uncertain about what sort of data you are dealing with  always limit output. Not limiting outputs on big data set queries could crash the entire system causing serious backlog.
+
+ 
 
   ### Exercises
   
@@ -73,5 +76,5 @@ When developing and testing new exploratory and uncertain about what sort querie
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjg0MDc0MSwtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbLTE3ODEzMTcyODYsLTI2Mzg0MDcyMV19
 -->
