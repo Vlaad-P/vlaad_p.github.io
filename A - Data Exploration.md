@@ -236,10 +236,12 @@ LIMIT 3
 **output:**
  name | category_id
  ---|---|
-***Sports***|***5314.21***
- Sci-Fi|4756.98
- Animation|4656.30
-3. For the films with the longest `length`, what is the `title` of the “R” rated film with the lowest `replacement_cost` in `dvd_rentals.film` table?
+***Travel***|***16***
+Sports|15
+  Sci-Fi|14
+  
+2. For the films with the longest `length`, what is the `title` of the “R” rated film with the lowest `replacement_cost` in `dvd_rentals.film` table?
+
 4. Who was the `manager` of the store with the highest `total_sales` in the `dvd_rentals.sales_by_store` table?
 5. What is the `postal_code` of the city with the 5th highest `city_id` in the `dvd_rentals.address` table?
 
@@ -286,9 +288,9 @@ LIMIT 3
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTMxNTA2LC0yMDc5OTAxNzM4LDE2Nj
-kxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUwNzg5MywtMTk0MjA0
-NTM3MywtNjU3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC
-0xNTY3MzI0NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbMTAxNTQwODg2OCwtMjA3OTkwMTczOCwxNj
+Y5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1MDc4OTMsLTE5NDIw
+NDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1Ni
+wtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
 
 -->
