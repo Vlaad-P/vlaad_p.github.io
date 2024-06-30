@@ -7,7 +7,10 @@ Use `*` to inspect all the columns in a table
 
 **Example**
 Show all records from the `language` table from the `dvd_rentals` schema
-
+````sql
+SELECT *
+FROM dvd_rental. language;
+````
 
   ### Select ALL Columns
   ### Select Specific Columns
@@ -51,5 +54,5 @@ Show all records from the `language` table from the `dvd_rentals` schema
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2ODg1OTczLC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTIyOTcwMTI1NywtMjYzODQwNzIxXX0=
 -->
