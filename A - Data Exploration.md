@@ -303,7 +303,7 @@ LIMIT 5
 
  # A2 Record Counts & Distinct Values
 
-  
+`COUNT` function | `DISTINCT` keyword | `GROUP BY` clauses and how they work under the hood | `ORDER BY` with `GROUP BY` to selectively sort the output |  Column aliases to rename `SELECT` expressions in the final output |    Frequency/counts for a single column and multiple column combinations | Calculate the counts percentage for groups using window functions
 
 
 
@@ -340,9 +340,9 @@ LIMIT 5
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI5MzE5OTEsLTYzNTY4Mjk3OSwtNz
-Q4MTAzMTgxLDEwMTU0MDg4NjgsLTIwNzk5MDE3MzgsMTY2OTE5
-NjcxMiwtMTc4MzU5NDg5MywyMDI1NTA3ODkzLC0xOTQyMDQ1Mz
-czLC02NTc2MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1
-NjczMjQ3NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbMzUyMTk3MjksLTYzNTY4Mjk3OSwtNzQ4MT
+AzMTgxLDEwMTU0MDg4NjgsLTIwNzk5MDE3MzgsMTY2OTE5Njcx
+MiwtMTc4MzU5NDg5MywyMDI1NTA3ODkzLC0xOTQyMDQ1MzczLC
+02NTc2MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1Njcz
+MjQ3NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
 -->
