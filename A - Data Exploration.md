@@ -51,6 +51,8 @@ name
 FROM dvd_rentals.language
 ;
 ````
+
+ ## 2 How To Query Data
  ### Exercises
 What is the `name` of the category with the highest `category_id` in the `dvd_rentals.category` table?
 
@@ -92,6 +94,6 @@ What is the `name` of the category with the highest `category_id` in the `dvd_re
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMT
-Q5MDAyOTM4NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbLTc2OTU2MDM3OSwxNTAwMTA3MDU2LC0xNT
+Y3MzI0NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
