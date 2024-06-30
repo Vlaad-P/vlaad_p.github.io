@@ -342,15 +342,18 @@ FROM dvd_rentals.film_list
 ```
 
 ### Count of Unique Values
+Use the `COUNT` function with the `DISTINCT` keyword to find the number of unique values of a specific column.
+**example :** How many unique `category` values are there in the `film_list` table?
+
 
 ## 3 - Group By Counts
 ### Dividing Rows
 ### Apply Aggregate Count Function
 ### Combining Condensed Outputs
-#### Single Column Value Counts
-#### Adding a Percentage Column
+### Single Column Value Counts
+### Adding a Percentage Column
 ## 4 - Counts For Multiple Column Combinations
-#### Using Positional Numbers Instead of Column Names
+### Using Positional Numbers Instead of Column Names
 ## 5 - Integer floor division
 ## 6 - Exercises
 1. Which `actor_id` has the most number of unique `film_id` records in the `dvd_rentals.film_actor` table?
@@ -394,10 +397,10 @@ FROM dvd_rentals.film_list
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY1NzA4NTEsLTEwMTU5MjE5MDgsMT
-g3Mjg2MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQw
-ODg2OCwtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0OD
-kzLDIwMjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04
-Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MD
-AyOTM4NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbLTY3NTkxMzgzLC0xMDE1OTIxOTA4LDE4Nz
+I4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4
+NjgsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5My
+wyMDI1NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3
+NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMj
+kzODcsLTI2Mzg0MDcyMV19
 -->
