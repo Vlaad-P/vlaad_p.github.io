@@ -88,7 +88,9 @@ LIMIT 5;
 ---
 
  ### Sort by Multiple Columns
- We can also perform a multi-level sort by specifying 2 or more columns with the ORDER BY clause.
+ We can also perform a multi-level sort by specifying 2 or more columns with the ORDER BY clause. Will use the following sample table for further deep dive:
+ 
+ 
 
 
 ---
@@ -137,7 +139,7 @@ LIMIT 5;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUwMD
-EwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4NywtMjYzODQw
-NzIxXX0=
+eyJoaXN0b3J5IjpbLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Nj
+c3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAy
+OTM4NywtMjYzODQwNzIxXX0=
 -->
