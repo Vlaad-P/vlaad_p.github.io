@@ -6,9 +6,7 @@
   ## 1 - How To Query Data
   
   ### Select ALL Columns
-  
-  Use `*` to inspect all the columns in a table
-
+ Use `*` to inspect all the columns in a table
 **Example**
 Show all records from the `language` table from the `dvd_rentals` schema
 ````sql
@@ -17,10 +15,8 @@ FROM dvd_rental. language;
 ````
 
   ### Select Specific Columns
-
  Separate columns with commas and make sure the spelling of each column is correct.
- 
- **Example**
+  **Example**
 Show only the `language_id` and `name` columns from the `language` table
 ````sql
 SELECT
@@ -29,10 +25,9 @@ name
 FROM dvd_rentals.language;
 ````
 **Good to know** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
+
   ### Limit Output Rows 
-
 When developing and testing new exploratory queries and uncertain about what sort of data you are dealing with  always limit output. Not limiting outputs on big data set queries could crash the entire system causing serious backlog.
-
 **Example**
 Show the first 10 rows from the `actor` tables
 ````sql
@@ -42,7 +37,6 @@ name
 FROM  dvd_rentals.language
 LIMIT 10;
 ````
-
 **Good to Know** Some SQL flavours like SQL Server or Teradata use **TOP** instead of **LIMIT** and it goes in the front of the **SELECT** statement, like this: 
 ````sql
 SELECT
@@ -53,9 +47,24 @@ FROM dvd_rentals.language
 ````
 
  ## 2 - Sorting Query Results
- ### Sort by Text Columns
  
+ ### Sort by Text Columns
+ By using **ORDER BY** automatically sorts text columns in alphabetical order. 
+```sql
+SELECT country
+FROM dvd_rentals.country
+ORDER BY country
+LIMIT 10;
+```
  ### Sort by Numeric / Date Columns
+ Sorting any numerical / date / timestamp columns is done from lowest to highest or latest to newest.  
+You can refer to the **ORDER BY** column by it's  position in the final resulting output (in this case 1)
+```sql
+SELECT total_sales
+FROM dvd_rentals.sales_by_film_category
+ORDER BY 1
+LIMIT 10;
+```
  ### Sort by Descending
  ### Sort by Multiple Columns
  ### Example Sorting Questions
@@ -102,6 +111,6 @@ FROM dvd_rentals.language
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDM4MzU0NSwxNTAwMTA3MDU2LC0xNT
-Y3MzI0NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbMjk5MzQ5MzY5LDE1MDAxMDcwNTYsLTE1Nj
+czMjQ3NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
 -->
