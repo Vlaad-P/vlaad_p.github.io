@@ -139,7 +139,7 @@ ORDER BY column_a DESC, column_b
  1|0|A
  2|0|B
 #### Sorting both descending 
-`
+```
 SELECT * FROM sample_table
 ORDER BY column_a DESC, column_b DESC
 ```
@@ -171,7 +171,7 @@ Order by `column_b` and `column_a DESC`
 ```
 SELECT * FROM sample_table
 ORDER BY column_b, column_a DESC;
-
+```
 **output:**
  id | column_a | column_b
  ---|---|---|
@@ -271,8 +271,9 @@ LIMIT 3
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMT
-c4MzU5NDg5MywyMDI1NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2
-MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3Nj
-EsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbNDM3Nzc3ODk0LC0yMDc5OTAxNzM4LDE2Nj
+kxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUwNzg5MywtMTk0MjA0
+NTM3MywtNjU3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC
+0xNTY3MzI0NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
+
 -->
