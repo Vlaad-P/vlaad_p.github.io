@@ -172,7 +172,7 @@ ORDER BY column_b DESC, column_a;
  3|1|C
  2|0|B
  1|0|A
-
+Order by `column_b` and `column_a DESC`
 
  ### Example Sorting Questions
  
@@ -218,7 +218,7 @@ ORDER BY column_b DESC, column_a;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjA5MTkxNiwtMTk0MjA0NTM3MywtNj
-U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
-NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbNjc5OTM4OTAsLTE5NDIwNDUzNzMsLTY1Nz
+YxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2
+MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
 -->
