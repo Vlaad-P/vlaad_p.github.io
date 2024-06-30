@@ -119,7 +119,7 @@ SELECT * FROM raw_data;
 SELECT * FROM sample_table
 ORDER BY column_a, column_b
 ```
-**Output**
+**output:**
  id | column_a | column_b
  ---|---|---|
  1|0|A
@@ -128,11 +128,21 @@ ORDER BY column_a, column_b
  4|1|D
  5|2|D
  6|3|D
+ 
 #### Sorting ascending & descending
 ```
 SELECT * FROM sample_table
 ORDER BY column_a DESC, column_b
 ```
+**Output**
+ id | column_a | column_b
+ ---|---|---|
+ 6|3|D
+ 5|2|D
+ 3|1|C
+ 4|1|D
+ 1|0|A
+ 3|0|B
  ### Example Sorting Questions
  
  
@@ -177,7 +187,7 @@ ORDER BY column_a DESC, column_b
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg4NjA3NCwtMTk0MjA0NTM3MywtNj
+eyJoaXN0b3J5IjpbMTk0NzQyMjMyNSwtMTk0MjA0NTM3MywtNj
 U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
 NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
