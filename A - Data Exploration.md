@@ -2,9 +2,11 @@
 
 
  # A1 Select & Sort Data
-  ## 1 How to query data
-  ### Select ALL columns
-  ###  
+  ## 1 How To Query Data
+  ### Select ALL Columns
+  ### Select Specific Columns
+  ### Limit Output Rows 
+  ### Exercises
   
 
 
@@ -43,5 +45,5 @@
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTkxNTI5NCwtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbMTc3ODg3NDkzMSwtMjYzODQwNzIxXX0=
 -->
