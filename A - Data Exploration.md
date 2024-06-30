@@ -2,8 +2,12 @@
 
 
  # A1 Select & Sort Data
+ 
   ## 1 How To Query Data
-Use `*` to inspect all the columns in a table
+  
+  ### Select ALL Columns
+  
+  Use `*` to inspect all the columns in a table
 
 **Example**
 Show all records from the `language` table from the `dvd_rentals` schema
@@ -12,8 +16,9 @@ SELECT *
 FROM dvd_rental. language;
 ````
 
-  ### Select ALL Columns
   ### Select Specific Columns
+ Separate columns with commas and make sure the spelling of each column is correct.
+**Good to Know
   ### Limit Output Rows 
   ### Exercises
   
@@ -54,5 +59,5 @@ FROM dvd_rental. language;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTcwMTI1NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbMTg3Njc5NjQ1LC0yNjM4NDA3MjFdfQ==
 -->
