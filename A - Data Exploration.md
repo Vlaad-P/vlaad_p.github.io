@@ -18,24 +18,21 @@ FROM dvd_rental. language;
 
   ### Select Specific Columns
  Separate columns with commas and make sure the spelling of each column is correct.
-  **example**
-Show only the `language_id` and `name` columns from the `language` table
+  **example:** Show only the `language_id` and `name` columns from the `language` table
 ```
 SELECT
 language_id,
 name
 FROM dvd_rentals.language;
 ```
-**! good to know**
-Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
+**! good to know!** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
 
 ---
 
   ### Limit Output Rows 
 When developing and testing new exploratory queries and uncertain about what sort of data we
  are dealing with  always limit output. Not limiting outputs on big data set queries could crash the entire system causing serious backlog.
-**example**
-Show the first 10 rows from the `actor` tables
+**example: ** show the first 10 rows from the `actor` tables
 ```
 SELECT
 language_id,
@@ -232,7 +229,7 @@ ORDER BY column_b, column_a DESC;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5MTczMjYxLC0xOTQyMDQ1MzczLC02NT
-c2MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3
-NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbMTY0MjYzMDM4NCwtMTk0MjA0NTM3MywtNj
+U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
+NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
