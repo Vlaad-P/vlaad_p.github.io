@@ -157,7 +157,21 @@ ORDER BY column_a DESC, column_b DESC
  3|1|C
  2|0|B
  1|0|A
-
+#### Sorting with different column order
+Order by `colum_b DESC` first instead of `column_a`
+```
+SELECT * FROM sample_table
+ORDER BY column_b DESC, column_a;
+```
+**output:**
+ id | column_a | column_b
+ ---|---|---|
+ 4|1|D
+ 5|2|D
+ 6|3|D
+ 3|1|C
+ 2|0|B
+ 1|0|A
 
 
  ### Example Sorting Questions
@@ -204,7 +218,7 @@ ORDER BY column_a DESC, column_b DESC
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDQ5NTc2NiwtMTk0MjA0NTM3MywtNj
+eyJoaXN0b3J5IjpbMTkwMjA5MTkxNiwtMTk0MjA0NTM3MywtNj
 U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
 NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
