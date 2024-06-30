@@ -18,7 +18,11 @@ FROM dvd_rental. language;
 
   ### Select Specific Columns
  Separate columns with commas and make sure the spelling of each column is correct.
-**Good to Know
+ 
+**Good to know** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
+
+**Example**
+
   ### Limit Output Rows 
   ### Exercises
   
@@ -59,5 +63,5 @@ FROM dvd_rental. language;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Njc5NjQ1LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTE0NzE1NDQwMCwtMjYzODQwNzIxXX0=
 -->
