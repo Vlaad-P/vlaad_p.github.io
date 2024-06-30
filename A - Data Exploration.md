@@ -286,16 +286,37 @@ Mike Hillyer|33689.74
  ```
 SELECT 
 postal_code,
-city_id,
-
+city_id
 FROM dvd_rentals.address
 ORDER BY 2 DESC
-LIMIT 3
+LIMIT 5
 ;
 ```
+**output:**
+ name | category_id
+ ---|---|
+***Jon Stephens***|***33726.77***
+Mike Hillyer|33689.74
 
+75559
 
+600
 
+39976
+
+599
+
+95093
+
+598
+
+40792
+
+597
+
+31390
+
+596
 
 
   
@@ -336,7 +357,7 @@ LIMIT 3
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTIwNjY4NTksMTAxNTQwODg2OCwtMj
+eyJoaXN0b3J5IjpbLTEzMzA5NTUxMDksMTAxNTQwODg2OCwtMj
 A3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1
 MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4Mz
 EsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4Nywt
