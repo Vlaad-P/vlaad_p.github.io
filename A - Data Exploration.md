@@ -280,11 +280,18 @@ LIMIT 3
  name | category_id
  ---|---|
 ***Jon Stephens***|***33726.77***
-Mike Hillyer|15
-
+Mike Hillyer|33689.74
 
 4. What is the `postal_code` of the city with the 5th highest `city_id` in the `dvd_rentals.address` table?
-
+ ```
+SELECT 
+manager,
+total_sales
+FROM dvd_rentals.sales_by_store
+ORDER BY 2 DESC
+LIMIT 3
+;
+```
 
 
 
@@ -328,9 +335,9 @@ Mike Hillyer|15
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Nzg3NjE1MCwxMDE1NDA4ODY4LC0yMD
-c5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUw
-Nzg5MywtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2NzczMzgzMS
-wxNTAwMTA3MDU2LC0xNTY3MzI0NzYxLC0xNDkwMDI5Mzg3LC0y
-NjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTE0MjA2OTM0MzEsMTAxNTQwODg2OCwtMj
+A3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1
+MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4Mz
+EsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4Nywt
+MjYzODQwNzIxXX0=
 -->
