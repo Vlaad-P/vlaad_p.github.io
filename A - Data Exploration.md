@@ -112,6 +112,7 @@ WITH raw_data (id, column_a, column_b) AS (VALUES)
 SELECT * FROM raw_data;
 ```
 ---
+#### Sorting both ascending
 
  ### Example Sorting Questions
  
@@ -157,7 +158,7 @@ SELECT * FROM raw_data;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2NDk4NTYwLC0xOTQyMDQ1MzczLC02NT
+eyJoaXN0b3J5IjpbNDMzODM2MjYzLC0xOTQyMDQ1MzczLC02NT
 c2MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3
 NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
 -->
