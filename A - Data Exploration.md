@@ -7,7 +7,7 @@
   
   ### Select ALL Columns
  Use `*` to inspect all the columns in a table
-**Example**
+**example**
 Show all records from the `language` table from the `dvd_rentals` schema
 ```
 SELECT *
@@ -18,7 +18,7 @@ FROM dvd_rental. language;
 
   ### Select Specific Columns
  Separate columns with commas and make sure the spelling of each column is correct.
-  **Example**
+  **example**
 Show only the `language_id` and `name` columns from the `language` table
 ```
 SELECT
@@ -26,7 +26,7 @@ language_id,
 name
 FROM dvd_rentals.language;
 ```
-**!Good to know**
+**! good to know**
 Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
 
 ---
@@ -34,7 +34,7 @@ Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
   ### Limit Output Rows 
 When developing and testing new exploratory queries and uncertain about what sort of data we
  are dealing with  always limit output. Not limiting outputs on big data set queries could crash the entire system causing serious backlog.
-**Example**
+**example**
 Show the first 10 rows from the `actor` tables
 ```
 SELECT
@@ -43,7 +43,7 @@ name
 FROM  dvd_rentals.language
 LIMIT 10;
 ```
-**!Good to Know**
+**! good to know**
 Some SQL flavours like SQL Server or Teradata use **TOP** instead of **LIMIT** and it goes in the front of the **SELECT** statement, like this: 
 ```
 SELECT
@@ -99,7 +99,7 @@ LIMIT 5;
  4|1|D
  5|2|D
  6|3|D
-Creating a  TEMP table with above data
+Creating a TEMP table with above data
 ```
 DROP TABLE IF EXISTS sample_table;
 CREATE TEMP TABLE sample_table AS
@@ -187,7 +187,7 @@ ORDER BY column_a DESC, column_b
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzQyMjMyNSwtMTk0MjA0NTM3MywtNj
+eyJoaXN0b3J5IjpbMjA4OTkxNjI4NSwtMTk0MjA0NTM3MywtNj
 U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
 NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
