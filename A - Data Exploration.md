@@ -253,11 +253,69 @@ LIMIT 10
 ;
 ```
 **output:**
-title | length | rating | repl
- ---|---|
+title | length | rating | replacement_cost
+ ---|---| ---|---|
 ***Travel***|***16***
-Sports|15
-  Sci-Fi|14
+CONTROL ANTHEM | 185 | G | 9.99
+CHICAGO NORTH | 185 | PG-13 | 11.99
+DARN FORRESTER|185|G|
+14.99
+
+HOME PITY
+
+185
+
+R
+
+15.99
+
+MUSCLE BRIGHT
+
+185
+
+G
+
+23.99
+
+POND SEATTLE
+
+185
+
+PG-13
+
+25.99
+
+WORST BANGER
+
+185
+
+PG
+
+26.99
+
+SWEET BROTHERHOOD
+
+185
+
+R
+
+27.99
+
+GANGS PRIDE
+
+185
+
+PG-13
+
+27.99
+
+SOLDIERS EVOLUTION
+
+185
+
+R
+
+27.99
 4. Who was the `manager` of the store with the highest `total_sales` in the `dvd_rentals.sales_by_store` table?
 5. What is the `postal_code` of the city with the 5th highest `city_id` in the `dvd_rentals.address` table?
 
@@ -304,9 +362,9 @@ Sports|15
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTI3NDUwOSwxMDE1NDA4ODY4LC0yMD
-c5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUw
-Nzg5MywtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2NzczMzgzMS
-wxNTAwMTA3MDU2LC0xNTY3MzI0NzYxLC0xNDkwMDI5Mzg3LC0y
-NjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTEzMDU2MTMxMTUsMTAxNTQwODg2OCwtMj
+A3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1
+MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4Mz
+EsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4Nywt
+MjYzODQwNzIxXX0=
 -->
