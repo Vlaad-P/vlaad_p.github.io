@@ -342,10 +342,11 @@ FROM dvd_rentals.film_list
 ```
 
 ### Count of Unique Values
+
 ## 3 - Group By Counts
-#### Dividing Rows
-#### Apply Aggregate Count Function
-#### Combining Condensed Outputs
+### Dividing Rows
+### Apply Aggregate Count Function
+### Combining Condensed Outputs
 #### Single Column Value Counts
 #### Adding a Percentage Column
 ## 4 - Counts For Multiple Column Combinations
@@ -393,10 +394,10 @@ FROM dvd_rentals.film_list
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTU5MjE5MDgsMTg3Mjg2MDc4OSwtNj
-M1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkw
-MTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1MDc4OT
-MsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUw
-MDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4NywtMjYzOD
-QwNzIxXX0=
+eyJoaXN0b3J5IjpbLTE2NDY1NzA4NTEsLTEwMTU5MjE5MDgsMT
+g3Mjg2MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQw
+ODg2OCwtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0OD
+kzLDIwMjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04
+Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MD
+AyOTM4NywtMjYzODQwNzIxXX0=
 -->
