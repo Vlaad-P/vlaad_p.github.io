@@ -14,6 +14,8 @@ SELECT *
 FROM dvd_rental. language;
 ````
 
+---
+
   ### Select Specific Columns
  Separate columns with commas and make sure the spelling of each column is correct.
   **Example**
@@ -25,6 +27,8 @@ name
 FROM dvd_rentals.language;
 ````
 **Good to know** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
+
+---
 
   ### Limit Output Rows 
 When developing and testing new exploratory queries and uncertain about what sort of data we
@@ -57,6 +61,9 @@ FROM dvd_rentals.country
 ORDER BY country
 LIMIT 10;
 ```
+
+---
+
  ### Sort by Numeric / Date Columns
  Sorting any numerical / date / timestamp columns is done from lowest to highest or latest to newest.  
 We can refer to the **ORDER BY** column by it's  position in the final resulting output (in this case 1)
@@ -121,6 +128,7 @@ LIMIT 5;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNT
-Y3MzI0NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTU3NjIzMjEzMiwtODY3NzMzODMxLDE1MD
+AxMDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcsLTI2Mzg0
+MDcyMV19
 -->
