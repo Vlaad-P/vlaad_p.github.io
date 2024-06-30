@@ -6,9 +6,8 @@
   ## 1 - How To Query Data
   
   ### Select ALL Columns
- Use `*` to inspect all the columns in a table
-**example**
-Show all records from the `language` table from the `dvd_rentals` schema
+ Use `*` to inspect all the columns in a table.
+**example** Show all records from the `language` table from the `dvd_rentals` schema.
 ```
 SELECT *
 FROM dvd_rental. language;
@@ -18,21 +17,21 @@ FROM dvd_rental. language;
 
   ### Select Specific Columns
  Separate columns with commas and make sure the spelling of each column is correct.
-  **example:** Show only the `language_id` and `name` columns from the `language` table
+  **example:** Show only the `language_id` and `name` columns from the `language` table.
 ```
 SELECT
 language_id,
 name
 FROM dvd_rentals.language;
 ```
-**! good to know!** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
+**! good to know!** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection.
 
 ---
 
   ### Limit Output Rows 
 When developing and testing new exploratory queries and uncertain about what sort of data we
  are dealing with  always limit output. Not limiting outputs on big data set queries could crash the entire system causing serious backlog.
-**example: ** show the first 10 rows from the `actor` tables
+**example: ** Show the first 10 rows from the `actor` tables.
 ```
 SELECT
 language_id,
@@ -65,7 +64,7 @@ LIMIT 10;
 
  ### Sort by Numeric / Date Columns
  Sorting any numerical / date / timestamp columns is done from lowest to highest or latest to newest.  
-We can refer to the **ORDER BY** column by it's  position in the final resulting output (in this case 1)
+We can refer to the **ORDER BY** column by it's  position in the final resulting output (in this case 1).
 ```
 SELECT total_sales
 FROM dvd_rentals.sales_by_film_category
@@ -229,7 +228,7 @@ ORDER BY column_b, column_a DESC;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjYzMDM4NCwtMTk0MjA0NTM3MywtNj
+eyJoaXN0b3J5IjpbLTIyNzI1Mjk0MiwtMTk0MjA0NTM3MywtNj
 U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
 NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
