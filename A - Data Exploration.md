@@ -1,8 +1,8 @@
 
 
 
- # 1 Select & Sort Data
-  ## 1.1 How to query data
+ # A1 Select & Sort Data
+  ## 1 How to query data
   
 
 
@@ -49,5 +49,5 @@
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5MjI4NzMsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbMTY5MTg4MDM3LC0yNjM4NDA3MjFdfQ==
 -->
