@@ -36,6 +36,11 @@ FROM dvd_rentals.language;
 When developing and testing new exploratory queries and uncertain about what sort of data you are dealing with  always limit output. Not limiting outputs on big data set queries could crash the entire system causing serious backlog.
 
 **Example**
+Show the first 10 rows from the `actor` tables
+````sql
+SELECT
+language_i
+
 
 
  
@@ -79,5 +84,5 @@ When developing and testing new exploratory queries and uncertain about what sor
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk3NzczNDQsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbMTgxNjc5OTIzOSwtMjYzODQwNzIxXX0=
 -->
