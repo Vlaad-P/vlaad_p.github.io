@@ -175,6 +175,7 @@ ORDER BY column_b DESC, column_a;
  3|1|C
  2|0|B
  1|0|A
+ 
 Order by `column_b` and `column_a DESC`
 ```
 SELECT * FROM sample_table
@@ -391,7 +392,7 @@ FROM dvd_rentals.film_list
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjUwNTI2MCwxODcyODYwNzg5LC02Mz
+eyJoaXN0b3J5IjpbMTgwNjI4Mzg5OCwxODcyODYwNzg5LC02Mz
 U2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC0yMDc5OTAx
 NzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUwNzg5My
 wtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2NzczMzgzMSwxNTAw
