@@ -22,6 +22,13 @@ FROM dvd_rental. language;
 **Good to know** Use ctrl+F / cmd+F on Win / Mac to highlight all commas for an easier inspection
 
 **Example**
+Show only the `language_id` and `name` columns from the `language` table
+````sql
+SELECT
+language_id,
+name
+FROM dvd_rentals.language;
+````
 
   ### Limit Output Rows 
   ### Exercises
@@ -63,5 +70,5 @@ FROM dvd_rental. language;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzE1NDQwMCwtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbLTcxOTIzODE2MCwtMjYzODQwNzIxXX0=
 -->
