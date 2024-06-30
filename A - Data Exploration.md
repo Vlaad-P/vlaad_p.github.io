@@ -197,10 +197,10 @@ LIMIT 10
 **output:**
  customer_id | inventory_id | last_update
  ---|---|---|
- **431**|**1**|**2006-02-15 21:30:53.000**
+ ***431***|***1***|***2006-02-15 21:30:53.000***
  518|1|2006-02-15 21:30:53.000
  279|1|2006-02-15 21:30:53.000
- **411**|**2**|**2006-02-15 21:30:53.000**
+ ***411**|**2**|**2006-02-15 21:30:53.000**
  170|2|2006-02-15 21:30:53.000
  161|2|2006-02-15 21:30:53.000
 
@@ -215,11 +215,11 @@ LIMIT 3
 ;
 ```
 **output:**
- category | total_sales | column_b
- ---|---|---|
- 1|0|A
- 2|0|B
- 3|1|C
+ category | total_sales
+ ---|---|
+***Sports***|***5314.21***
+ Sci-Fi|4756.98
+ Animation|4656.30
 
  
  ## 3 - Exercises
@@ -268,7 +268,7 @@ LIMIT 3
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA3ODA3NCwxNjY5MTk2NzEyLC0xNz
+eyJoaXN0b3J5IjpbLTkzNDg2NTgxNiwxNjY5MTk2NzEyLC0xNz
 gzNTk0ODkzLDIwMjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYx
 NDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MS
 wtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
