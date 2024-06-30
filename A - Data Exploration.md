@@ -252,6 +252,12 @@ ORDER BY 2 DESC,4
 LIMIT 10
 ;
 ```
+**output:**
+title | length | rating | repl
+ ---|---|
+***Travel***|***16***
+Sports|15
+  Sci-Fi|14
 4. Who was the `manager` of the store with the highest `total_sales` in the `dvd_rentals.sales_by_store` table?
 5. What is the `postal_code` of the city with the 5th highest `city_id` in the `dvd_rentals.address` table?
 
@@ -298,9 +304,9 @@ LIMIT 10
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE4OTA0NDAsMTAxNTQwODg2OCwtMj
-A3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1
-MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4Mz
-EsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4Nywt
-MjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbMTk4MTI3NDUwOSwxMDE1NDA4ODY4LC0yMD
+c5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUw
+Nzg5MywtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2NzczMzgzMS
+wxNTAwMTA3MDU2LC0xNTY3MzI0NzYxLC0xNDkwMDI5Mzg3LC0y
+NjM4NDA3MjFdfQ==
 -->
