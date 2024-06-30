@@ -306,6 +306,8 @@ LIMIT 5
 `COUNT` function | `DISTINCT` keyword | `GROUP BY` clauses and how they work under the hood | `ORDER BY` with `GROUP BY` to selectively sort the output |  Column aliases to rename `SELECT` expressions in the final output |    Frequency/counts for a single column and multiple column combinations | Calculate the counts percentage for groups using window functions
 
 ## 1 - How Many Records?
+It is important to know how many records there are in a table prior to running further analytical queries on the dataset as the data size will have significant impact on performance.
+
 ### Column Aliases
 ## 2 - DISTINCT For Unique Values
 ### Show Unique Column Values
@@ -361,9 +363,10 @@ LIMIT 5
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Mjg2MDc4OSwtNjM1NjgyOTc5LC03ND
-gxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkwMTczOCwxNjY5MTk2
-NzEyLC0xNzgzNTk0ODkzLDIwMjU1MDc4OTMsLTE5NDIwNDUzNz
-MsLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2
-NzMyNDc2MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbMTQyNzAxNTk3LDE4NzI4NjA3ODksLTYzNT
+Y4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4NjgsLTIwNzk5MDE3
+MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5MywyMDI1NTA3ODkzLC
+0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3NzMzODMxLDE1MDAx
+MDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcsLTI2Mzg0MD
+cyMV19
 -->
