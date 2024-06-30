@@ -98,15 +98,19 @@ LIMIT 5;
  5|2|D
  6|3|D
 Creating a  TEMP table with above data
-````sql
+```sql
 DROP TABLE IF EXISTS sample_table;
 CREATE TEMP TABLE sample_table AS
 WITH raw_data (id, column_a, column_b) AS (VALUES)
-
-
- 
-
-
+ (1, 0, 'A'),
+ (2, 0, 'B'),
+ (3, 1, 'C'),
+ (4, 1, 'D'),
+ (5, 2, 'D'),
+ (6, 3, 'D')
+)
+SELECT * FROM raw_data;
+```
 ---
 
  ### Example Sorting Questions
@@ -153,7 +157,7 @@ WITH raw_data (id, column_a, column_b) AS (VALUES)
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjYwOTM0NSwtMTk0MjA0NTM3MywtNj
-U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
-NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbNjk2NDk4NTYwLC0xOTQyMDQ1MzczLC02NT
+c2MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3
+NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
 -->
