@@ -344,13 +344,30 @@ SELECT DISTINCT
 FROM dvd_rentals.film_list
 ;
 ```
+**output:**
+ rating | 
+ ---|
+75559|
+39976|
+95093|
+40792|
 ---
 
 ### Count of Unique Values
 Use the `COUNT` function with the `DISTINCT` keyword to find the number of unique values of a specific column.
 **example :** How many unique `category` values are there in the `film_list` table?
-
-
+```
+SELECT
+  COUNT(DISTINCT category) AS unique_category_count
+FROM dvd_rentals.film_list
+```
+**output:**
+ postal_code | city_id
+ ---|---|
+75559|600
+39976|599
+95093|598
+40792|597
 ## 3 - Group By Counts
 ### Dividing Rows
 ### Apply Aggregate Count Function
@@ -405,10 +422,10 @@ Use the `COUNT` function with the `DISTINCT` keyword to find the number of uniqu
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTQyNzI0NCwtMTAxNTkyMTkwOCwxOD
-cyODYwNzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4
-ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OT
-MsMjAyNTUwNzg5MywtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2
-NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0NzYxLC0xNDkwMD
-I5Mzg3LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTE1MTE2NDk0NjEsLTEwMTU5MjE5MDgsMT
+g3Mjg2MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQw
+ODg2OCwtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0OD
+kzLDIwMjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04
+Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MD
+AyOTM4NywtMjYzODQwNzIxXX0=
 -->
