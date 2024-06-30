@@ -70,7 +70,7 @@ FROM dvd_rentals.sales_by_film_category
 ORDER BY 1
 LIMIT 10;
 ```
-**! good to know !** We can refer to the **ORDER BY** column by it's  position in the final resulting output (in this case 1).
+>**good to know.** We can refer to the **ORDER BY** column by it's  position in the final resulting output (in this case 1).
 
  ### Sort by Descending
  To reverse the sort order use **DESC** 
@@ -226,7 +226,8 @@ ORDER BY column_b, column_a DESC;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTUwNzg5MywtMTk0MjA0NTM3MywtNj
-U3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0
-NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTMzNjgxNzQ0MSwyMDI1NTA3ODkzLC0xOT
+QyMDQ1MzczLC02NTc2MTQwNywtODY3NzMzODMxLDE1MDAxMDcw
+NTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV
+19
 -->
