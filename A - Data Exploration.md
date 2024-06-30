@@ -267,6 +267,21 @@ GANGS PRIDE|185|PG-13|27.99
 SOLDIERS EVOLUTION|185|R|27.99
 
 3. Who was the `manager` of the store with the highest `total_sales` in the `dvd_rentals.sales_by_store` table?
+ ```
+SELECT 
+manager,
+total_sales
+FROM dvd_rentals.sales_by_store
+ORDER BY 2 DESC
+LIMIT 3
+;
+```
+**output:**
+ name | category_id
+ ---|---|
+***Jon Stephens***|***33726.77***
+Mike Hillyer|15
+
 
 4. What is the `postal_code` of the city with the 5th highest `city_id` in the `dvd_rentals.address` table?
 
@@ -313,9 +328,9 @@ SOLDIERS EVOLUTION|185|R|27.99
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1MDAzODMwLDEwMTU0MDg4NjgsLTIwNz
-k5MDE3MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5MywyMDI1NTA3
-ODkzLC0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3NzMzODMxLD
-E1MDAxMDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcsLTI2
-Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbMjA0Nzg3NjE1MCwxMDE1NDA4ODY4LC0yMD
+c5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUw
+Nzg5MywtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2NzczMzgzMS
+wxNTAwMTA3MDU2LC0xNTY3MzI0NzYxLC0xNDkwMDI5Mzg3LC0y
+NjM4NDA3MjFdfQ==
 -->
