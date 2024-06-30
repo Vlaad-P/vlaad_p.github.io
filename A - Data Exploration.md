@@ -44,7 +44,14 @@ name
 FROM  dvd_rentals.language
 LIMIT 10;
 ````
-
+**Good to Know** Some SQL flavours like SQL Server or Teradata use **TOP** instead of **LIMIT** and it goes in the front of the **SELECT** statement, like this: 
+````sql
+SELECT
+Top 10*
+name
+FROM dvd_rentals.language
+;
+````
  ### Exercises
 What is the `name` of the category with the highest `category_id` in the `dvd_rentals.category` table?
 
@@ -86,6 +93,6 @@ What is the `name` of the category with the highest `category_id` in the `dvd_re
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcsLT
-I2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbLTEyNDk2MjM2NDQsLTE1NjczMjQ3NjEsLT
+E0OTAwMjkzODcsLTI2Mzg0MDcyMV19
 -->
