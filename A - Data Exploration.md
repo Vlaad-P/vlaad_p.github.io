@@ -285,9 +285,10 @@ Mike Hillyer|33689.74
 4. What is the `postal_code` of the city with the 5th highest `city_id` in the `dvd_rentals.address` table?
  ```
 SELECT 
-manager,
-total_sales
-FROM dvd_rentals.sales_by_store
+postal_code,
+city_id,
+
+FROM dvd_rentals.address
 ORDER BY 2 DESC
 LIMIT 3
 ;
@@ -335,7 +336,7 @@ LIMIT 3
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjA2OTM0MzEsMTAxNTQwODg2OCwtMj
+eyJoaXN0b3J5IjpbLTE4NTIwNjY4NTksMTAxNTQwODg2OCwtMj
 A3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1
 MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4Mz
 EsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4Nywt
