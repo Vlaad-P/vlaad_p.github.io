@@ -173,7 +173,20 @@ ORDER BY column_b DESC, column_a;
  2|0|B
  1|0|A
 Order by `column_b` and `column_a DESC`
-
+```
+SELECT * FROM sample_table
+ORDER BY column_b, column_a DESC;
+```
+**output:**
+ id | column_a | column_b
+ ---|---|---|
+ 1|0|A
+ 2|0|B
+ 3|1|C
+ 6|3|D
+ 5|2|D
+ 4|1|D
+ 
  ### Example Sorting Questions
  
  
@@ -218,7 +231,7 @@ Order by `column_b` and `column_a DESC`
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5OTM4OTAsLTE5NDIwNDUzNzMsLTY1Nz
-YxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2
-MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbLTE4NzM5MDA4MzMsLTE5NDIwNDUzNzMsLT
+Y1NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMy
+NDc2MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
 -->
