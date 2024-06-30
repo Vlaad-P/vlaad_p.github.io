@@ -325,11 +325,15 @@ SELECT
   COUNT(*) AS row_count
 FROM dvd_rentals.film_list;
 ```
+---
+
 ### Column Aliases
 Used to specify a name for an expression in the select statement. Can also be used to name other SQL expressions such as database tables, subqueries and common table expressions (CTEs). They vastly improve SQL code readability, reducing the time it takes to write, debug, understand or quickly scan the code.
 
 ## 2 - DISTINCT For Unique Values
 Identifies how many unique values there are in a specific column or table. Helps with looking at the counts or frequencies, (the number of times certain combinations occur within a dataset).
+
+---
 
 ### Show Unique Column Values
 Use the `DISTINCT` keyword to obtain unique values from a deduplicated target column.
@@ -340,6 +344,7 @@ SELECT DISTINCT
 FROM dvd_rentals.film_list
 ;
 ```
+---
 
 ### Count of Unique Values
 Use the `COUNT` function with the `DISTINCT` keyword to find the number of unique values of a specific column.
@@ -352,9 +357,12 @@ Use the `COUNT` function with the `DISTINCT` keyword to find the number of uniqu
 ### Combining Condensed Outputs
 ### Single Column Value Counts
 ### Adding a Percentage Column
+
 ## 4 - Counts For Multiple Column Combinations
 ### Using Positional Numbers Instead of Column Names
+
 ## 5 - Integer floor division
+
 ## 6 - Exercises
 1. Which `actor_id` has the most number of unique `film_id` records in the `dvd_rentals.film_actor` table?
 2. How many distinct `fid` values are there for the 3rd most common `price` value in the `dvd_rentals.nicer_but_slower_film_list` table?
@@ -397,10 +405,10 @@ Use the `COUNT` function with the `DISTINCT` keyword to find the number of uniqu
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTkxMzgzLC0xMDE1OTIxOTA4LDE4Nz
-I4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4
-NjgsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5My
-wyMDI1NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3
-NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMj
-kzODcsLTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbMTA1NTQyNzI0NCwtMTAxNTkyMTkwOCwxOD
+cyODYwNzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4
+ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OT
+MsMjAyNTUwNzg5MywtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2
+NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0NzYxLC0xNDkwMD
+I5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
