@@ -197,14 +197,24 @@ LIMIT 10
 **output:**
  customer_id | inventory_id | last_update
  ---|---|---|
- 431|1|2006-02-15 21:30:53.000
+ **431**|**1**|**2006-02-15 21:30:53.000**
  518|1|2006-02-15 21:30:53.000
  279|1|2006-02-15 21:30:53.000
- 411|2|2006-02-15 21:30:53.000
+ **411**|**2**|**2006-02-15 21:30:53.000**
  170|2|2006-02-15 21:30:53.000
  161|2|2006-02-15 21:30:53.000
 
  2. In the `dvd_rentals.sales_by_film_category` table, which category has the highest total_sales?
+ ```
+SELECT 
+customer_id,
+inventory_id,
+last_update
+FROM dvd_rentals.rental
+ORDER BY inventory_id, last_update DESC
+LIMIT 10
+;
+```
  
  ## 3 - Exercises
 1. What is the `name` of the category with the highest `category_id` in the `dvd_rentals.category` table?
@@ -252,8 +262,8 @@ LIMIT 10
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTcwMjg0NCwxNjY5MTk2NzEyLC0xNz
-gzNTk0ODkzLDIwMjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYx
-NDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MS
-wtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbNTU0NTQyMTMsMTY2OTE5NjcxMiwtMTc4Mz
+U5NDg5MywyMDI1NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2MTQw
+NywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3NjEsLT
+E0OTAwMjkzODcsLTI2Mzg0MDcyMV19
 -->
