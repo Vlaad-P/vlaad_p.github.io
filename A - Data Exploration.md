@@ -318,6 +318,8 @@ LIMIT 5
 #### Adding a Percentage Column
 ## 4 - Counts For Multiple Column Combinations
 #### Using Positional Numbers Instead of Column Names
+## 5 - Integer floor division
+## 6 - Exercises
 
 
 
@@ -353,9 +355,9 @@ LIMIT 5
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzI0NzQ4MiwtNjM1NjgyOTc5LC03ND
-gxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkwMTczOCwxNjY5MTk2
-NzEyLC0xNzgzNTk0ODkzLDIwMjU1MDc4OTMsLTE5NDIwNDUzNz
-MsLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2
-NzMyNDc2MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbNzQ4MjE3NjY5LC02MzU2ODI5NzksLTc0OD
+EwMzE4MSwxMDE1NDA4ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3
+MTIsLTE3ODM1OTQ4OTMsMjAyNTUwNzg5MywtMTk0MjA0NTM3My
+wtNjU3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3
+MzI0NzYxLC0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
 -->
