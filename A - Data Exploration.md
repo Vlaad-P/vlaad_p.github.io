@@ -123,6 +123,8 @@ ORDER BY column_a, column_b
  4|1|D
  5|2|D
  6|3|D
+
+---
  
 #### Sorting ascending & descending
 ```
@@ -138,6 +140,9 @@ ORDER BY column_a DESC, column_b
  4|1|D
  1|0|A
  2|0|B
+ 
+---
+
 #### Sorting both descending 
 ```
 SELECT * FROM sample_table
@@ -152,6 +157,9 @@ ORDER BY column_a DESC, column_b DESC
  3|1|C
  2|0|B
  1|0|A
+
+---
+
 #### Sorting with different column order
 Order by `colum_b DESC` first instead of `column_a`
 ```
@@ -181,6 +189,8 @@ ORDER BY column_b, column_a DESC;
  6|3|D
  5|2|D
  4|1|D
+
+---
 
  ### Example Sorting Questions
  1. Which customer_id had the latest rental_date for inventory_id = 1 and 2?
@@ -329,8 +339,6 @@ FROM dvd_rentals.film_list
 ;
 ```
 
-
-
 ### Count of Unique Values
 ## 3 - Group By Counts
 #### Dividing Rows
@@ -383,7 +391,7 @@ FROM dvd_rentals.film_list
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjEyMzk1MiwxODcyODYwNzg5LC02Mz
+eyJoaXN0b3J5IjpbLTMyMjUwNTI2MCwxODcyODYwNzg5LC02Mz
 U2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC0yMDc5OTAx
 NzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUwNzg5My
 wtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2NzczMzgzMSwxNTAw
