@@ -307,7 +307,12 @@ LIMIT 5
 
 ## 1 - How Many Records?
 It is important to know how many records there are in a table prior to running further analytical queries on the dataset as the data size will have significant impact on performance.
-
+**example :** How many rows are there in the `film_list` table?
+```
+SELECT
+  COUNT(*) AS row_count
+FROM dvd_rentals.film_list;
+```
 ### Column Aliases
 ## 2 - DISTINCT For Unique Values
 ### Show Unique Column Values
@@ -363,10 +368,10 @@ It is important to know how many records there are in a table prior to running f
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzAxNTk3LDE4NzI4NjA3ODksLTYzNT
-Y4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4NjgsLTIwNzk5MDE3
-MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5MywyMDI1NTA3ODkzLC
-0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3NzMzODMxLDE1MDAx
-MDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcsLTI2Mzg0MD
-cyMV19
+eyJoaXN0b3J5IjpbLTExNDIxMzg5MTMsMTg3Mjg2MDc4OSwtNj
+M1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkw
+MTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1MDc4OT
+MsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUw
+MDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4NywtMjYzOD
+QwNzIxXX0=
 -->
