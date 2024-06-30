@@ -308,7 +308,17 @@ LIMIT 5
 ## 1 - How Many Records?
 ### Column Aliases
 ## 2 - DISTINCT For Unique Values
-### 
+### Show Unique Column Values
+### Count of Unique Values
+## 3 - Group By Counts
+#### Dividing Rows
+#### Apply Aggregate Count Function
+#### Combining Condensed Outputs
+#### Single Column Value Counts
+#### Adding a Percentage Column
+## 4 - Counts For Multiple Column Combinations
+#### Using Positional Numbers Instead of Column Names
+
 
 
 
@@ -343,7 +353,7 @@ LIMIT 5
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzU4MjYzOCwtNjM1NjgyOTc5LC03ND
+eyJoaXN0b3J5IjpbMjEwNzI0NzQ4MiwtNjM1NjgyOTc5LC03ND
 gxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkwMTczOCwxNjY5MTk2
 NzEyLC0xNzgzNTk0ODkzLDIwMjU1MDc4OTMsLTE5NDIwNDUzNz
 MsLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2
