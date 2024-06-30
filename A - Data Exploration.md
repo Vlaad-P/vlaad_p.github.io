@@ -171,7 +171,7 @@ Order by `column_b` and `column_a DESC`
 ```
 SELECT * FROM sample_table
 ORDER BY column_b, column_a DESC;
-```
+
 **output:**
  id | column_a | column_b
  ---|---|---|
@@ -184,7 +184,7 @@ ORDER BY column_b, column_a DESC;
 
  ### Example Sorting Questions
  1. Which customer_id had the latest rental_date for inventory_id = 1 and 2?
-`````
+```
 SELECT 
 customer_id,
 inventory_id,
@@ -194,6 +194,16 @@ ORDER BY inventory_id, last_update DESC
 LIMIT 10
 ;
 ```
+**output:**
+ customer_id | inventory_id | column_b
+ ---|---|---|
+ 1|0|A
+ 2|0|B
+ 3|1|C
+ 6|3|D
+ 5|2|D
+ 4|1|D
+
  2. In the `dvd_rentals.sales_by_film_category` table, which category has the highest total_sales?
  
  ## 3 - Exercises
@@ -237,8 +247,8 @@ LIMIT 10
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5ODAxNTExLDE2NjkxOTY3MTIsLTE3OD
-M1OTQ4OTMsMjAyNTUwNzg5MywtMTk0MjA0NTM3MywtNjU3NjE0
-MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0NzYxLC
-0xNDkwMDI5Mzg3LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTE2MTU1MTg2NTgsMTY2OTE5NjcxMiwtMT
+c4MzU5NDg5MywyMDI1NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2
+MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3Nj
+EsLTE0OTAwMjkzODcsLTI2Mzg0MDcyMV19
 -->
