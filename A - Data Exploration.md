@@ -317,6 +317,7 @@ FROM dvd_rentals.film_list;
 Used to specify a name for an expression in the select statement. Can also be used to name other SQL expressions such as database tables, subqueries and common table expressions (CTEs). They vastly improve SQL code readability, reducing the time it takes to write, debug, understand or quickly scan the code.
 
 ## 2 - DISTINCT For Unique Values
+Identifies how many unique values there are in a specific column or table. More commonly we will try to look at the counts or frequencies, the number of times certain combinations occur within a dataset.
 ### Show Unique Column Values
 ### Count of Unique Values
 ## 3 - Group By Counts
@@ -370,10 +371,10 @@ Used to specify a name for an expression in the select statement. Can also be us
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDI5NzAwNiwxODcyODYwNzg5LC02Mz
-U2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC0yMDc5OTAx
-NzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUwNzg5My
-wtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2NzczMzgzMSwxNTAw
-MTA3MDU2LC0xNTY3MzI0NzYxLC0xNDkwMDI5Mzg3LC0yNjM4ND
-A3MjFdfQ==
+eyJoaXN0b3J5IjpbNzk3MDEyMTQ3LDE4NzI4NjA3ODksLTYzNT
+Y4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4NjgsLTIwNzk5MDE3
+MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5MywyMDI1NTA3ODkzLC
+0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3NzMzODMxLDE1MDAx
+MDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcsLTI2Mzg0MD
+cyMV19
 -->
