@@ -436,7 +436,20 @@ G|178|17.75
 ## 4 - Counts For Multiple Column Combinations
 How best to analyse combinations of 2+ columns: Apply `GROUP BY` clause and specify additional columns in the grouping element expressions. When we use `GROUP BY` on 2+ columns, the subsequent `COUNT` function will aggregate the records based off the unique combination of values in these columns instead of just a single 1.
 
-
+**example:** What are the 5 most frequent `rating` and `category` combinations in the `film_list` table?
+```
+SELECT
+rating,
+category,
+COUNT(*) AS frequency,
+ROUND(
+100*COUNT(*)::NUMERIC / SUM (COUNT(*)) OVER(),
+2) AS percentage
+FROM dvd_rentals.film_list
+GROUP BY rating,category
+ORDER BY frequency DESC
+;
+```
 
 
 
@@ -484,11 +497,11 @@ How best to analyse combinations of 2+ columns: Apply `GROUP BY` clause and spec
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2NDk2Nzc0LDE0MDAzMTQxMjcsLTE1MD
-U3NDkyNzMsNTkyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5
-MDgsMTg3Mjg2MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMT
-AxNTQwODg2OCwtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgz
-NTk0ODkzLDIwMjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxND
-A3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwt
-MTQ5MDAyOTM4N119
+eyJoaXN0b3J5IjpbLTE3NzU1NDcyNjQsMTQwMDMxNDEyNywtMT
+UwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTky
+MTkwOCwxODcyODYwNzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MS
+wxMDE1NDA4ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3
+ODM1OTQ4OTMsMjAyNTUwNzg5MywtMTk0MjA0NTM3MywtNjU3Nj
+E0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0NzYx
+LC0xNDkwMDI5Mzg3XX0=
 -->
