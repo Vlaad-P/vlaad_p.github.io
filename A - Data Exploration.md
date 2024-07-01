@@ -508,12 +508,28 @@ unique_country_ids|
  
 4. What percentage of overall `total_sales` does the Sports `category` make up in the `dvd_rentals.sales_by_film_category` table?
 ```
-
+SELECT
+category,
+SUM(total_sales) as total_sales,
+ROUND(
+100*SUM(total_sales)::NUMERIC / SUM(total_sales) OVER (),
+2) as percentage_of_total_sales
+FROM dvd_rentals.sales_by_film_category
+GROUP BY category, total_sales
+ORDER BY percentage_of_total_sales DESC
+;
 ```
 **output:**
-unique_country_ids| 
- ---|
- 109
+category|total_sales|percentage_of_total_sales 
+ ---|---|---|
+ Sports|5314.21|7.88
+Sci-Fi|4756.98|7.06
+Animation|4656.30|6.91
+Drama|4587.39|6.80
+Comedy|
+4383.58
+
+6.50
 
 
 
@@ -557,11 +573,11 @@ unique_country_ids|
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjAyNDcxOCw5Njk1MjY0NiwtNTMyOT
-g3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMTUwNTc0OTI3
-Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxOD
-cyODYwNzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4
-ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OT
-MsMjAyNTUwNzg5MywtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2
-NzczMzgzMV19
+eyJoaXN0b3J5IjpbLTE4OTIyNjcxNzAsMTE0NjAyNDcxOCw5Nj
+k1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEy
+NywtMTUwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMT
+AxNTkyMTkwOCwxODcyODYwNzg5LC02MzU2ODI5NzksLTc0ODEw
+MzE4MSwxMDE1NDA4ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3MT
+IsLTE3ODM1OTQ4OTMsMjAyNTUwNzg5MywtMTk0MjA0NTM3Mywt
+NjU3NjE0MDddfQ==
 -->
