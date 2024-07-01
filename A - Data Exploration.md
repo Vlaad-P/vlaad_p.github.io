@@ -411,6 +411,12 @@ PG|194|0.19358074222668004012
 G|178|0.17753259779338014042
 >**good to know**. `::NUMERIC` right after the `COUNT(*)` avoids integer floor division.  The code uses a modified window function combining both `SUM` and `COUNT` functions with an `OVER()` clause.
 
+We can improve percentage readability by multiplying it by 100 and round it to 1 decimal place using a `ROUND` function:
+```
+SELECT
+
+```
+
 
 ## 4 - Counts For Multiple Column Combinations
 ### Using Positional Numbers Instead of Column Names
@@ -459,11 +465,11 @@ G|178|0.17753259779338014042
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA5MDYzNDksLTE1MDU3NDkyNzMsNT
-kyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2
-MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OC
-wtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIw
-MjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3Mz
-M4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4
-NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbNzkyNzU3MzUyLC0xNTA1NzQ5MjczLDU5Mj
+A1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIxOTA4LDE4NzI4NjA3
+ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4NjgsLT
+IwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5MywyMDI1
+NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3NzMzOD
+MxLDE1MDAxMDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcs
+LTI2Mzg0MDcyMV19
 -->
