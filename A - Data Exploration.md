@@ -370,6 +370,7 @@ unique_category_count |
 ## 3 - Group By Counts
 
 ### Dividing Rows
+
 ### Apply Aggregate Count Function
 ### Combining Condensed Outputs
 ### Single Column Value Counts
@@ -422,10 +423,11 @@ unique_category_count |
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyMDUzMzA1LDEyMTAxODk2MDcsLTEwMT
-U5MjE5MDgsMTg3Mjg2MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMx
-ODEsMTAxNTQwODg2OCwtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC
-0xNzgzNTk0ODkzLDIwMjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1
-NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMyND
-c2MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbLTE1MDU3NDkyNzMsNTkyMDUzMzA1LDEyMT
+AxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2MDc4OSwtNjM1Njgy
+OTc5LC03NDgxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkwMTczOC
+wxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1MDc4OTMsLTE5
+NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEwNz
+A1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4NywtMjYzODQwNzIx
+XX0=
 -->
