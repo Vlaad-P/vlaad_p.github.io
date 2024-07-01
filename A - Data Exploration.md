@@ -457,8 +457,6 @@ PG-13|Animation|19
 PG-13|Foreign|19
 NC-17|New|18
 
-## 5 - Integer floor division
-
 ## 6 - Exercises
 1. Which `actor_id` has the most number of unique `film_id` records in the `dvd_rentals.film_actor` table?
 2. How many distinct `fid` values are there for the 3rd most common `price` value in the `dvd_rentals.nicer_but_slower_film_list` table?
@@ -501,11 +499,11 @@ NC-17|New|18
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzMwNTg5MSwxNDAwMzE0MTI3LC0xNT
-A1NzQ5MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIx
-OTA4LDE4NzI4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLD
-EwMTU0MDg4NjgsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4
-MzU5NDg5MywyMDI1NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2MT
-QwNywtODY3NzMzODMxLDE1MDAxMDcwNTYsLTE1NjczMjQ3NjEs
-LTE0OTAwMjkzODddfQ==
+eyJoaXN0b3J5IjpbLTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMT
+UwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTky
+MTkwOCwxODcyODYwNzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MS
+wxMDE1NDA4ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3
+ODM1OTQ4OTMsMjAyNTUwNzg5MywtMTk0MjA0NTM3MywtNjU3Nj
+E0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0NzYx
+LC0xNDkwMDI5Mzg3XX0=
 -->
