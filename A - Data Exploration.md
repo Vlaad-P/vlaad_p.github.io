@@ -434,6 +434,10 @@ PG|194|19.36
 G|178|17.75
 
 ## 4 - Counts For Multiple Column Combinations
+How best to analyse combinations of 2+ columns: Apply `GROUP BY` clause and specify additional columns in the grouping element expressions. When we use `GROUP BY` on 2+ columns, the subsequent `COUNT` function will aggregate the records based off the unique combination of values in these columns instead of just a single 1.
+
+
+
 
 
 ## 5 - Integer floor division
@@ -480,11 +484,11 @@ G|178|17.75
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDMxNDEyNywtMTUwNTc0OTI3Myw1OT
-IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
-Nzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC
-0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAy
-NTUwNzg5MywtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2NzczMz
-gzMSwxNTAwMTA3MDU2LC0xNTY3MzI0NzYxLC0xNDkwMDI5Mzg3
-LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbNjE2NDk2Nzc0LDE0MDAzMTQxMjcsLTE1MD
+U3NDkyNzMsNTkyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5
+MDgsMTg3Mjg2MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMT
+AxNTQwODg2OCwtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgz
+NTk0ODkzLDIwMjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxND
+A3LC04Njc3MzM4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwt
+MTQ5MDAyOTM4N119
 -->
