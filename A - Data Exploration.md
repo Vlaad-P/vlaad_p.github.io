@@ -495,7 +495,18 @@ price| value
  4.99|334
 
 3. How many unique `country_id` values exist in the `dvd_rentals.city` table?
-
+```
+SELECT
+COUNT(DISTINCT country_id) AS unique_country_id
+FROM dvd_rentals.city
+;
+```
+**output:**
+unique_country_ids| 
+ ---|
+ ***0.99***|***340***
+ 2.99|323
+ 4.99|334
 
 4. What percentage of overall `total_sales` does the Sports `category` make up in the `dvd_rentals.sales_by_film_category` table?
 5. What percentage of unique `fid` values are in the Children `category` in the `dvd_rentals.film_list` table?
@@ -535,11 +546,11 @@ price| value
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDExNzIwOCw5Njk1MjY0NiwtNTMyOT
-g3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMTUwNTc0OTI3
-Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxOD
-cyODYwNzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4
-ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OT
-MsMjAyNTUwNzg5MywtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2
-NzczMzgzMV19
+eyJoaXN0b3J5IjpbMzc4MjExNzA2LDk2OTUyNjQ2LC01MzI5OD
+c2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNTA1NzQ5Mjcz
+LDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIxOTA4LDE4Nz
+I4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4
+NjgsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5My
+wyMDI1NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3
+NzMzODMxXX0=
 -->
