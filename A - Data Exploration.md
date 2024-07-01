@@ -434,7 +434,7 @@ PG|194|19.36
 G|178|17.75
 
 ## 4 - Counts For Multiple Column Combinations
-### Using Positional Numbers Instead of Column Names
+
 
 ## 5 - Integer floor division
 
@@ -480,7 +480,7 @@ G|178|17.75
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDU5NjQwMSwtMTUwNTc0OTI3Myw1OT
+eyJoaXN0b3J5IjpbMTQwMDMxNDEyNywtMTUwNTc0OTI3Myw1OT
 IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
 Nzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC
 0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAy
