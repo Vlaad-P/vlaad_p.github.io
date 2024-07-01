@@ -370,9 +370,31 @@ unique_category_count |
 ## 3 - Group By Counts
 
 ### Single Column Value Counts
-Use  `GROUP BY` to group elements. Only 1 row is returned for each group.The `GROUP BY` must be used after the `FROM` statement
+Use  `GROUP BY` to group elements. Only 1 row is returned for each group. The `GROUP BY` must be used after the `FROM` statement
+**example :** What is the frequency of values in the `rating` column in the `film` table?
+```
+SELECT
+  rating,
+  COUNT(*) AS frequency
+FROM dvd_rentals.film_list
+GROUP BY rating;
+```
+**output:**
+ postal_code | city_id
+ ---|---|
+75559|600
+39976|599
+95093|598
+40792|597
 
 ### Adding a Percentage Column
+
+
+
+
+
+
+
 
 ## 4 - Counts For Multiple Column Combinations
 ### Using Positional Numbers Instead of Column Names
@@ -421,11 +443,11 @@ Use  `GROUP BY` to group elements. Only 1 row is returned for each group.The `GR
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODEyNTA1NDksLTE1MDU3NDkyNzMsNT
-kyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2
-MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OC
-wtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIw
-MjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3Mz
-M4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4
-NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbNjgwNTc3NTY3LC0xNTA1NzQ5MjczLDU5Mj
+A1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIxOTA4LDE4NzI4NjA3
+ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4NjgsLT
+IwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5MywyMDI1
+NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3NzMzOD
+MxLDE1MDAxMDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcs
+LTI2Mzg0MDcyMV19
 -->
