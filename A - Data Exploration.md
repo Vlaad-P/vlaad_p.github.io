@@ -459,6 +459,17 @@ NC-17|New|18
 
 ## 6 - Exercises
 1. Which `actor_id` has the most number of unique `film_id` records in the `dvd_rentals.film_actor` table?
+```
+SELECT
+actor_id,
+COUNTun(film_id) AS frequency,
+FROM dvd_rentals.film_list
+GROUP BY rating,category
+ORDER BY frequency DESC
+LIMIT 5
+;
+```
+
 2. How many distinct `fid` values are there for the 3rd most common `price` value in the `dvd_rentals.nicer_but_slower_film_list` table?
 3. How many unique `country_id` values exist in the `dvd_rentals.city` table?
 4. What percentage of overall `total_sales` does the Sports `category` make up in the `dvd_rentals.sales_by_film_category` table?
@@ -499,11 +510,11 @@ NC-17|New|18
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMT
-UwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTky
-MTkwOCwxODcyODYwNzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MS
-wxMDE1NDA4ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3
-ODM1OTQ4OTMsMjAyNTUwNzg5MywtMTk0MjA0NTM3MywtNjU3Nj
-E0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2LC0xNTY3MzI0NzYx
-LC0xNDkwMDI5Mzg3XX0=
+eyJoaXN0b3J5IjpbLTE3NjgyNTY3MDUsLTE0MjQ5NzE1MzAsMT
+QwMDMxNDEyNywtMTUwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4
+OTYwNywtMTAxNTkyMTkwOCwxODcyODYwNzg5LC02MzU2ODI5Nz
+ksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC0yMDc5OTAxNzM4LDE2
+NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUwNzg5MywtMTk0Mj
+A0NTM3MywtNjU3NjE0MDcsLTg2NzczMzgzMSwxNTAwMTA3MDU2
+LC0xNTY3MzI0NzYxXX0=
 -->
