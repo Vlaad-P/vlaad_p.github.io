@@ -477,7 +477,16 @@ actor_id| number_of_films
  198|40
  
 2. How many distinct `fid` values are there for the 3rd most common `price` value in the `dvd_rentals.nicer_but_slower_film_list` table?
-
+```
+SELECT
+price,
+COUNT(DISTINCT fid) AS values
+FROM dvd_rentals.nicer_but_slower_film_list
+GROUP BY price
+ORDER BY price
+LIMIT 3
+;
+```
 
 
 4. How many unique `country_id` values exist in the `dvd_rentals.city` table?
@@ -519,11 +528,11 @@ actor_id| number_of_films
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5NTI2NDYsLTUzMjk4NzYyLC0xNDI0OT
-cxNTMwLDE0MDAzMTQxMjcsLTE1MDU3NDkyNzMsNTkyMDUzMzA1
-LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2MDc4OSwtNj
-M1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkw
-MTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1MDc4OT
-MsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUw
-MDEwNzA1Nl19
+eyJoaXN0b3J5IjpbMTQ4MDIzODUxMCw5Njk1MjY0NiwtNTMyOT
+g3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMTUwNTc0OTI3
+Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxOD
+cyODYwNzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4
+ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OT
+MsMjAyNTUwNzg5MywtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2
+NzczMzgzMV19
 -->
