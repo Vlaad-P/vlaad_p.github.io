@@ -530,8 +530,33 @@ Comedy|4383.58|6.50
 
 5. What percentage of unique `fid` values are in the Children `category` in the `dvd_rentals.film_list` table?
 
+```
+SELECT
+category,
+ROUND(
+100*COUNT(DISTINCT fid)::NUMERIC / SUM(COUNT(DISTINCT fid)) OVER (),
+2) as fid_unique_percentage
+FROM dvd_rentals.film_list
+GROUP BY category
+ORDER BY category
+;
+```
+**output:**
+category|fid_unique_percentage
+ ---|---|
+Action|6.42
+Animation|6.62
+Children|
 
+6.02
 
+Classics
+
+5.72
+
+Comedy
+
+5.82
 
 
 
@@ -565,11 +590,11 @@ Comedy|4383.58|6.50
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OT
-UyNjQ2LC01MzI5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3
-LC0xNTA1NzQ5MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMD
-E1OTIxOTA4LDE4NzI4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAz
-MTgxLDEwMTU0MDg4NjgsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMi
-wtMTc4MzU5NDg5MywyMDI1NTA3ODkzLC0xOTQyMDQ1MzczLC02
-NTc2MTQwN119
+eyJoaXN0b3J5IjpbLTEzNzAxODkyMDEsMTI4MTkwOTgwMiwxMT
+Q2MDI0NzE4LDk2OTUyNjQ2LC01MzI5ODc2MiwtMTQyNDk3MTUz
+MCwxNDAwMzE0MTI3LC0xNTA1NzQ5MjczLDU5MjA1MzMwNSwxMj
+EwMTg5NjA3LC0xMDE1OTIxOTA4LDE4NzI4NjA3ODksLTYzNTY4
+Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4NjgsLTIwNzk5MDE3Mz
+gsMTY2OTE5NjcxMiwtMTc4MzU5NDg5MywyMDI1NTA3ODkzLC0x
+OTQyMDQ1MzczXX0=
 -->
