@@ -393,6 +393,16 @@ G|178
 ### Adding a Percentage Column
 Sometimes the frequency is just not enough to really understand the frequency at a quick glance, so we like to create an additional percentage column to our dataset.
 
+```
+SELECT
+  rating,
+  COUNT(*) AS frequency,
+  COUNT(*)::NUMERIC / SUM(COUNT(*)) OVER () AS percentage
+FROM dvd_rentals.film_list
+GROUP BY rating
+ORDER BY frequency DESC;
+```
+>**good to know.** 
 
 
 
@@ -446,11 +456,11 @@ Sometimes the frequency is just not enough to really understand the frequency at
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODExMDQ3NzEsLTE1MDU3NDkyNzMsNT
-kyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2
-MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OC
-wtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIw
-MjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3Mz
-M4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4
-NywtMjYzODQwNzIxXX0=
+eyJoaXN0b3J5IjpbLTQwNzY4MDY4NSwtMTUwNTc0OTI3Myw1OT
+IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
+Nzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC
+0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAy
+NTUwNzg5MywtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2NzczMz
+gzMSwxNTAwMTA3MDU2LC0xNTY3MzI0NzYxLC0xNDkwMDI5Mzg3
+LC0yNjM4NDA3MjFdfQ==
 -->
