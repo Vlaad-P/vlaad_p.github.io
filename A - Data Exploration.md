@@ -370,7 +370,7 @@ unique_category_count |
 ## 3 - Group By Counts
 
 ### Single Column Value Counts
-used in the `GROUP BY` grouping elements Only 1 row is returned for each group
+Use  `GROUP BY` to group elements. Only 1 row is returned for each group.The `GROUP BY` must be used after the `FROM` statement
 
 ### Adding a Percentage Column
 
@@ -421,11 +421,11 @@ used in the `GROUP BY` grouping elements Only 1 row is returned for each group
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDUzNzQ2MCwtMTUwNTc0OTI3Myw1OT
-IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
-Nzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC
-0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAy
-NTUwNzg5MywtMTk0MjA0NTM3MywtNjU3NjE0MDcsLTg2NzczMz
-gzMSwxNTAwMTA3MDU2LC0xNTY3MzI0NzYxLC0xNDkwMDI5Mzg3
-LC0yNjM4NDA3MjFdfQ==
+eyJoaXN0b3J5IjpbLTExODEyNTA1NDksLTE1MDU3NDkyNzMsNT
+kyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2
+MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OC
+wtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIw
+MjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3Mz
+M4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4
+NywtMjYzODQwNzIxXX0=
 -->
