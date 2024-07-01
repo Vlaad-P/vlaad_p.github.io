@@ -377,19 +377,21 @@ SELECT
   rating,
   COUNT(*) AS frequency
 FROM dvd_rentals.film_list
-GROUP BY rating;
+GROUP BY rating
+ORDER BY frequency DESC;
 ```
+
 **output:**
  rating| frequency
  ---|---|
-PG|194
-NC-17|210
 PG-13|223
-G|178
+NC-17|210
 R|195
+PG|194
+G|178
 
 ### Adding a Percentage Column
-
+Sometimes the frequency is just not enough to really understand the frequency at a quick glance, so we like to create an additional percentage column to our dataset.
 
 
 
@@ -444,11 +446,11 @@ R|195
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxMzMxMjQ4LC0xNTA1NzQ5MjczLDU5Mj
-A1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIxOTA4LDE4NzI4NjA3
-ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4NjgsLT
-IwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5MywyMDI1
-NTA3ODkzLC0xOTQyMDQ1MzczLC02NTc2MTQwNywtODY3NzMzOD
-MxLDE1MDAxMDcwNTYsLTE1NjczMjQ3NjEsLTE0OTAwMjkzODcs
-LTI2Mzg0MDcyMV19
+eyJoaXN0b3J5IjpbLTE1ODExMDQ3NzEsLTE1MDU3NDkyNzMsNT
+kyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2
+MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OC
+wtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIw
+MjU1MDc4OTMsLTE5NDIwNDUzNzMsLTY1NzYxNDA3LC04Njc3Mz
+M4MzEsMTUwMDEwNzA1NiwtMTU2NzMyNDc2MSwtMTQ5MDAyOTM4
+NywtMjYzODQwNzIxXX0=
 -->
