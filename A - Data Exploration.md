@@ -380,12 +380,13 @@ FROM dvd_rentals.film_list
 GROUP BY rating;
 ```
 **output:**
- postal_code | city_id
+ rating| frequency
  ---|---|
-75559|600
-39976|599
-95093|598
-40792|597
+PG|194
+NC-17|210
+PG-13|223
+G|178
+R|195
 
 ### Adding a Percentage Column
 
@@ -443,7 +444,7 @@ GROUP BY rating;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwNTc3NTY3LC0xNTA1NzQ5MjczLDU5Mj
+eyJoaXN0b3J5IjpbNDMxMzMxMjQ4LC0xNTA1NzQ5MjczLDU5Mj
 A1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIxOTA4LDE4NzI4NjA3
 ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4NjgsLT
 IwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5MywyMDI1
