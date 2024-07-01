@@ -457,7 +457,6 @@ PG-13|Animation|19
 PG-13|Foreign|19
 NC-17|New|18
 
-
 ## 5 - Integer floor division
 
 ## 6 - Exercises
@@ -502,7 +501,7 @@ NC-17|New|18
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTYxMTI4MSwxNDAwMzE0MTI3LC0xNT
+eyJoaXN0b3J5IjpbLTQ4NzMwNTg5MSwxNDAwMzE0MTI3LC0xNT
 A1NzQ5MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIx
 OTA4LDE4NzI4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLD
 EwMTU0MDg4NjgsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4
