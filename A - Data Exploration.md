@@ -402,7 +402,7 @@ FROM dvd_rentals.film_list
 GROUP BY rating
 ORDER BY frequency DESC;
 ```
->**good to know.** 
+>**good to know**. `::NUMERIC` right after the `COUNT(*)` avoids integer floor division.
 
 
 
@@ -456,7 +456,7 @@ ORDER BY frequency DESC;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzY4MDY4NSwtMTUwNTc0OTI3Myw1OT
+eyJoaXN0b3J5IjpbLTQyNjEzOTY3NiwtMTUwNTc0OTI3Myw1OT
 IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
 Nzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC
 0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAy
