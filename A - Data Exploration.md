@@ -416,8 +416,13 @@ We can improve percentage readability by multiplying it by 100 and round it to 1
 SELECT
 rating,
 COUNT(*) AS frequency,
-ROUND(COUNT(*)::NUMERIC / SUM (COUNT(*))O
-
+ROUND(
+COUNT(*)::NUMERIC / SUM (COUNT(*)) OVER(),
+2) AS percentage
+FROM dvd_rentals.film_list
+GROUP BY rating
+ORDER BY frequency DESC
+;
 ```
 
 
@@ -468,7 +473,7 @@ ROUND(COUNT(*)::NUMERIC / SUM (COUNT(*))O
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODcyODE1NiwtMTUwNTc0OTI3Myw1OT
+eyJoaXN0b3J5IjpbMTg1NjEwNTU3NCwtMTUwNTc0OTI3Myw1OT
 IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
 Nzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC
 0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAy
