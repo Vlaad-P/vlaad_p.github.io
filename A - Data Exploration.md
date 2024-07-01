@@ -487,12 +487,19 @@ ORDER BY price
 LIMIT 3
 ;
 ```
+**output:**
+price| value
+ ---|---
+ ***0.99***|***340***
+ 2.99|323
+ 4.99|334
+
+3. How many unique `country_id` values exist in the `dvd_rentals.city` table?
 
 
-4. How many unique `country_id` values exist in the `dvd_rentals.city` table?
-5. What percentage of overall `total_sales` does the Sports `category` make up in the `dvd_rentals.sales_by_film_category` table?
-6. What percentage of unique `fid` values are in the Children `category` in the `dvd_rentals.film_list` table?
-7. 
+4. What percentage of overall `total_sales` does the Sports `category` make up in the `dvd_rentals.sales_by_film_category` table?
+5. What percentage of unique `fid` values are in the Children `category` in the `dvd_rentals.film_list` table?
+6. 
 
 
 
@@ -528,7 +535,7 @@ LIMIT 3
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDIzODUxMCw5Njk1MjY0NiwtNTMyOT
+eyJoaXN0b3J5IjpbMTcwNDExNzIwOCw5Njk1MjY0NiwtNTMyOT
 g3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMTUwNTc0OTI3
 Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxOD
 cyODYwNzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4
