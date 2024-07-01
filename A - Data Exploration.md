@@ -522,22 +522,14 @@ ORDER BY percentage_of_total_sales DESC
 **output:**
 category|total_sales|percentage_of_total_sales 
  ---|---|---|
- Sports|5314.21|7.88
+***Sports***|***5314.21***|***7.88***
 Sci-Fi|4756.98|7.06
 Animation|4656.30|6.91
 Drama|4587.39|6.80
-Comedy|
-4383.58
-
-6.50
-
-
-
-
-
+Comedy|4383.58|6.50
 
 5. What percentage of unique `fid` values are in the Children `category` in the `dvd_rentals.film_list` table?
-6. 
+
 
 
 
@@ -573,11 +565,11 @@ Comedy|
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTIyNjcxNzAsMTE0NjAyNDcxOCw5Nj
-k1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEy
-NywtMTUwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMT
-AxNTkyMTkwOCwxODcyODYwNzg5LC02MzU2ODI5NzksLTc0ODEw
-MzE4MSwxMDE1NDA4ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3MT
-IsLTE3ODM1OTQ4OTMsMjAyNTUwNzg5MywtMTk0MjA0NTM3Mywt
-NjU3NjE0MDddfQ==
+eyJoaXN0b3J5IjpbMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OT
+UyNjQ2LC01MzI5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3
+LC0xNTA1NzQ5MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMD
+E1OTIxOTA4LDE4NzI4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAz
+MTgxLDEwMTU0MDg4NjgsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMi
+wtMTc4MzU5NDg5MywyMDI1NTA3ODkzLC0xOTQyMDQ1MzczLC02
+NTc2MTQwN119
 -->
