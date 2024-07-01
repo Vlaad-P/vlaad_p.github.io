@@ -392,7 +392,6 @@ G|178
 
 ### Adding a Percentage Column
 Sometimes the frequency is just not enough to really understand the frequency at a quick glance, so we like to create an additional percentage column to our dataset.
-
 ```
 SELECT
   rating,
@@ -402,11 +401,15 @@ FROM dvd_rentals.film_list
 GROUP BY rating
 ORDER BY frequency DESC;
 ```
->**good to know**. `::NUMERIC` right after the `COUNT(*)` avoids integer floor division.
-
-
-
-
+**output:**
+rating| frequency |
+ ---|---|
+PG-13|223
+NC-17|210
+R|195
+PG|194
+G|178
+>**good to know**. `::NUMERIC` right after the `COUNT(*)` avoids integer floor division.  The code uses a modified window function combining both `SUM` and `COUNT` functions with an `OVER()` clause.
 
 
 ## 4 - Counts For Multiple Column Combinations
@@ -456,7 +459,7 @@ ORDER BY frequency DESC;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjEzOTY3NiwtMTUwNTc0OTI3Myw1OT
+eyJoaXN0b3J5IjpbMTc3NDg5MjA4OSwtMTUwNTc0OTI3Myw1OT
 IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
 Nzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC
 0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAy
