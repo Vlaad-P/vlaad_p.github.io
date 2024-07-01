@@ -529,7 +529,6 @@ Drama|4587.39|6.80
 Comedy|4383.58|6.50
 
 5. What percentage of unique `fid` values are in the Children `category` in the `dvd_rentals.film_list` table?
-
 ```
 SELECT
 category,
@@ -546,40 +545,17 @@ category|fid_unique_percentage
  ---|---|
 Action|6.42
 Animation|6.62
-Children|
-
-6.02
-
-Classics
-
-5.72
-
-Comedy
-
-5.82
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+***Children***|***6.02***
+Classics|5.72
+Comedy|5.82
 
  # A3 Identifying Duplicate Records
+
+
+
+
+
+
  # A4 Summary Statistics
  # A5 Distribution Functions
  # A6 Summary 
@@ -590,7 +566,7 @@ Comedy
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAxODkyMDEsMTI4MTkwOTgwMiwxMT
+eyJoaXN0b3J5IjpbLTEzMDg1MzAzNDUsMTI4MTkwOTgwMiwxMT
 Q2MDI0NzE4LDk2OTUyNjQ2LC01MzI5ODc2MiwtMTQyNDk3MTUz
 MCwxNDAwMzE0MTI3LC0xNTA1NzQ5MjczLDU5MjA1MzMwNSwxMj
 EwMTg5NjA3LC0xMDE1OTIxOTA4LDE4NzI4NjA3ODksLTYzNTY4
