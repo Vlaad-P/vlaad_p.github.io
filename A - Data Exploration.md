@@ -370,6 +370,7 @@ unique_category_count |
 ## 3 - Group By Counts
 
 ### Single Column Value Counts
+used in the `GROUP BY` grouping elements Only 1 row is returned for each group
 
 ### Adding a Percentage Column
 
@@ -420,7 +421,7 @@ unique_category_count |
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDIwNDM4MCwtMTUwNTc0OTI3Myw1OT
+eyJoaXN0b3J5IjpbMTUyNDUzNzQ2MCwtMTUwNTc0OTI3Myw1OT
 IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
 Nzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC
 0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAy
