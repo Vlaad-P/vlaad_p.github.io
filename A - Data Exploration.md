@@ -469,8 +469,16 @@ ORDER BY number_of_films DESC
 LIMIT 3
 ;
 ```
-
+**output:**
+actor_id| number_of_films
+ ---|---
+ 107|42
+ 102|41
+ 198|40
+ 
 2. How many distinct `fid` values are there for the 3rd most common `price` value in the `dvd_rentals.nicer_but_slower_film_list` table?
+
+
 3. How many unique `country_id` values exist in the `dvd_rentals.city` table?
 4. What percentage of overall `total_sales` does the Sports `category` make up in the `dvd_rentals.sales_by_film_category` table?
 5. What percentage of unique `fid` values are in the Children `category` in the `dvd_rentals.film_list` table?
@@ -510,11 +518,11 @@ LIMIT 3
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzMzODcwMywtMTQyNDk3MTUzMCwxND
-AwMzE0MTI3LC0xNTA1NzQ5MjczLDU5MjA1MzMwNSwxMjEwMTg5
-NjA3LC0xMDE1OTIxOTA4LDE4NzI4NjA3ODksLTYzNTY4Mjk3OS
-wtNzQ4MTAzMTgxLDEwMTU0MDg4NjgsLTIwNzk5MDE3MzgsMTY2
-OTE5NjcxMiwtMTc4MzU5NDg5MywyMDI1NTA3ODkzLC0xOTQyMD
-Q1MzczLC02NTc2MTQwNywtODY3NzMzODMxLDE1MDAxMDcwNTYs
-LTE1NjczMjQ3NjFdfQ==
+eyJoaXN0b3J5IjpbLTUzMjk4NzYyLC0xNDI0OTcxNTMwLDE0MD
+AzMTQxMjcsLTE1MDU3NDkyNzMsNTkyMDUzMzA1LDEyMTAxODk2
+MDcsLTEwMTU5MjE5MDgsMTg3Mjg2MDc4OSwtNjM1NjgyOTc5LC
+03NDgxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkwMTczOCwxNjY5
+MTk2NzEyLC0xNzgzNTk0ODkzLDIwMjU1MDc4OTMsLTE5NDIwND
+UzNzMsLTY1NzYxNDA3LC04Njc3MzM4MzEsMTUwMDEwNzA1Niwt
+MTU2NzMyNDc2MV19
 -->
