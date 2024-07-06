@@ -739,7 +739,18 @@ c7af488f4c8efc0ecdfd6d0c427e7c133bf2f2d9|2020-02-10|blood_pressure|0|190|94
 0f7b13f3f0512e6546b8d2c0d56e564a2408536a|2020-02-15|blood_pressure|0|135|89
 0f7b13f3f0512e6546b8d2c0d56e564a2408536a|2020-02-27|blood_pressure|0|138|85
 
-It looks like when the blood pressure is measured the `measure_value` field is empty and the relevant `systolic` and `diastolic` fields are populated with the valid records!
+It looks like when the blood pressure is measured the `measure_value` field is sometimes empty but the relevant `systolic` and `diastolic` fields are populated with the valid records.
+
+What happens to the records where `measure = 'blood_pressure'` but the `measure_value` <>0 ?
+```
+SELECT *
+FROM health.user_logs
+WHERE measure_value=0 AND measure LIKE 'blood_pressure'
+LIMIT 10;
+```
+**output**
+id|log_date|measure|measure_value|systolic|diastolic
+---|---|---|---|---|---
 
 
 
@@ -766,11 +777,11 @@ It looks like when the blood pressure is measured the `measure_value` field is e
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5MDMxODQwLC00NTI1MDIxMjcsLTIzOD
-AwMDEzMCwtMjYwMTM2NDUwLDEwNjA1Njk5MjMsOTg2NzUzMzU3
-LDE5Mjc0OTgwMDIsOTEzOTQ4OTAxLC0xMzA4NTMwMzQ1LDEyOD
-E5MDk4MDIsMTE0NjAyNDcxOCw5Njk1MjY0NiwtNTMyOTg3NjIs
-LTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMTUwNTc0OTI3Myw1OT
-IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
-Nzg5XX0=
+eyJoaXN0b3J5IjpbLTc2OTQ4NDUwOCwtNDUyNTAyMTI3LC0yMz
+gwMDAxMzAsLTI2MDEzNjQ1MCwxMDYwNTY5OTIzLDk4Njc1MzM1
+NywxOTI3NDk4MDAyLDkxMzk0ODkwMSwtMTMwODUzMDM0NSwxMj
+gxOTA5ODAyLDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMjk4NzYy
+LC0xNDI0OTcxNTMwLDE0MDAzMTQxMjcsLTE1MDU3NDkyNzMsNT
+kyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2
+MDc4OV19
 -->
