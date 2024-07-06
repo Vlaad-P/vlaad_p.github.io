@@ -807,7 +807,7 @@ The  `blood_pressure` is recorded in the `systolic`and `diastolic` columns while
 
 The `measure_value` is also populated when `blood_pressure` measurements are recorded but it looks like 4 out of 5 of such entries in the `measure_value` are imported from the `systolic` field and the remainder show `0`.
 
-
+Furthermore, when
 
 
 
@@ -829,11 +829,11 @@ The `measure_value` is also populated when `blood_pressure` measurements are rec
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxMDAyNTMxLDI2NDI3MzE3NSwxMDIzNz
-g5NjY1LC00NTI1MDIxMjcsLTIzODAwMDEzMCwtMjYwMTM2NDUw
-LDEwNjA1Njk5MjMsOTg2NzUzMzU3LDE5Mjc0OTgwMDIsOTEzOT
-Q4OTAxLC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcx
-OCw5Njk1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMD
-MxNDEyNywtMTUwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYw
-N119
+eyJoaXN0b3J5IjpbLTE1ODE3NTM5NDIsNjAxMDAyNTMxLDI2ND
+I3MzE3NSwxMDIzNzg5NjY1LC00NTI1MDIxMjcsLTIzODAwMDEz
+MCwtMjYwMTM2NDUwLDEwNjA1Njk5MjMsOTg2NzUzMzU3LDE5Mj
+c0OTgwMDIsOTEzOTQ4OTAxLC0xMzA4NTMwMzQ1LDEyODE5MDk4
+MDIsMTE0NjAyNDcxOCw5Njk1MjY0NiwtNTMyOTg3NjIsLTE0Mj
+Q5NzE1MzAsMTQwMDMxNDEyNywtMTUwNTc0OTI3Myw1OTIwNTMz
+MDVdfQ==
 -->
