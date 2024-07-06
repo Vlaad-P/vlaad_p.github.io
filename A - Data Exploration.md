@@ -799,9 +799,9 @@ Looks like `systolic` and `diastolic` only have non-null records when `measure =
 
 So how does this relate to our understanding of the data?
 
-The dataset contains health measurements of users. It collects their user id, date the measurement was taken on, the measure selected and its values.
-There are 3 possible measurements: `weight`, `blood_glucose` and `blood_pressure`. Values are recorded in the following 3 fields: `measure_value`, `systolic` and `diastolic`.
-It has 43,891 records from 554 users with `blood_glucose` being by far the most frequent measurement taken (88%).
+The dataset contains health measurements of users. It collects their user id, date the measurement was taken on, the measure selected and its values. It has 43,891 records from 554 users.
+
+There are 3 possible measurements: `weight`, `blood_glucose` and `blood_pressure`. Values are recorded in the following 3 fields: `measure_value`, `systolic` and `diastolic`.  `blood_glucose` is by far the most frequent measurement taken (88%).
 
 The  `blood_pressure` is recorded in the `systolic`and `diastolic` columns while `weight` and `blood_glucose` in the `measure_value`.
 
@@ -829,7 +829,7 @@ The `measure_value` is also populated when `blood_pressure` measurements are rec
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjgzODg4NiwyNjQyNzMxNzUsMTAyMz
+eyJoaXN0b3J5IjpbLTI0OTA1Mjk3MywyNjQyNzMxNzUsMTAyMz
 c4OTY2NSwtNDUyNTAyMTI3LC0yMzgwMDAxMzAsLTI2MDEzNjQ1
 MCwxMDYwNTY5OTIzLDk4Njc1MzM1NywxOTI3NDk4MDAyLDkxMz
 k0ODkwMSwtMTMwODUzMDM0NSwxMjgxOTA5ODAyLDExNDYwMjQ3
