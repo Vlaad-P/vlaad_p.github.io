@@ -655,12 +655,18 @@ ORDER BY frequency DESC
 LIMIT 10;
 ```
 **output**
-measure|frequency|percentage|
+measure|value|frequency|
 ---|---|---|
-
-
-
-
+blood_pressure|0|562
+blood_glucose|401|433
+blood_glucose|117|350
+blood_glucose|118|307
+blood_glucose|115|290
+blood_glucose|126|290
+blood_glucose|122|289
+blood_glucose|108|287
+blood_glucose|123|283
+blood_glucose|125|282
 
  # A4 Summary Statistics
  # A5 Distribution Functions
@@ -672,11 +678,11 @@ measure|frequency|percentage|
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjAxMTU1LDE5Mjc0OTgwMDIsOTEzOT
-Q4OTAxLC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcx
-OCw5Njk1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMD
-MxNDEyNywtMTUwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYw
-NywtMTAxNTkyMTkwOCwxODcyODYwNzg5LC02MzU2ODI5NzksLT
-c0ODEwMzE4MSwxMDE1NDA4ODY4LC0yMDc5OTAxNzM4LDE2Njkx
-OTY3MTJdfQ==
+eyJoaXN0b3J5IjpbLTc5ODc5NDUyOSwxOTI3NDk4MDAyLDkxMz
+k0ODkwMSwtMTMwODUzMDM0NSwxMjgxOTA5ODAyLDExNDYwMjQ3
+MTgsOTY5NTI2NDYsLTUzMjk4NzYyLC0xNDI0OTcxNTMwLDE0MD
+AzMTQxMjcsLTE1MDU3NDkyNzMsNTkyMDUzMzA1LDEyMTAxODk2
+MDcsLTEwMTU5MjE5MDgsMTg3Mjg2MDc4OSwtNjM1NjgyOTc5LC
+03NDgxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkwMTczOCwxNjY5
+MTk2NzEyXX0=
 -->
