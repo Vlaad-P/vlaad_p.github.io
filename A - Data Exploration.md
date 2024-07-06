@@ -652,7 +652,7 @@ COUNT(*) as frequency
 FROM health.user_logs
 GROUP BY measure_value
 ORDER BY frequency DESC
-LIMIT 10;
+LIMIT 5;
 ```
 **output**
 measure_value|frequency
@@ -662,11 +662,6 @@ measure_value|frequency
 117|390
 118|346
 123|342
-122|331
-126|326
-120|323
-128|319
-115|319
 
 ```
 SELECT
@@ -682,17 +677,9 @@ systolic_value|frequency|
 ---|---|
 _null_|26023
 0|15451
-120|
-
-71
-
-123
-
-70
-
-128
-
-66
+120|71
+123|70
+128|66
 ```
 SELECT
 measure,
@@ -704,19 +691,26 @@ ORDER BY frequency DESC
 LIMIT 10;
 ```
 **output**
-measure|diastolic_value|frequency|
----|---|---|
-blood_glucose|_null_|25580
-blood_glucose|0|13110
-weight|0|2339
-weight|_null_|443
-blood_pressure|80|156
-blood_pressure|79|124
-blood_pressure|81|119
-blood_pressure|78|110
-blood_pressure|73|109
-blood_pressure|77|109
+diastolic_value|frequency|
+---|---|
+_null_
+26023
 
+0
+
+15449
+
+80
+
+156
+
+79
+
+124
+
+81
+
+119
  # A4 Summary Statistics
  # A5 Distribution Functions
  # A6 Summary 
@@ -727,11 +721,11 @@ blood_pressure|77|109
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDYzNTg1MiwtMjYwMTM2NDUwLDEwNj
-A1Njk5MjMsOTg2NzUzMzU3LDE5Mjc0OTgwMDIsOTEzOTQ4OTAx
-LC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcxOCw5Nj
-k1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEy
-NywtMTUwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMT
-AxNTkyMTkwOCwxODcyODYwNzg5LC02MzU2ODI5NzksLTc0ODEw
-MzE4MV19
+eyJoaXN0b3J5IjpbNjU0MTIxODYyLC0yNjAxMzY0NTAsMTA2MD
+U2OTkyMyw5ODY3NTMzNTcsMTkyNzQ5ODAwMiw5MTM5NDg5MDEs
+LTEzMDg1MzAzNDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OT
+UyNjQ2LC01MzI5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3
+LC0xNTA1NzQ5MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMD
+E1OTIxOTA4LDE4NzI4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAz
+MTgxXX0=
 -->
