@@ -805,9 +805,11 @@ There are 3 possible measurements: `weight`, `blood_glucose` and `blood_pressure
 
 The  `blood_pressure` is recorded in the `systolic`and `diastolic` columns while `weight` and `blood_glucose` in the `measure_value`.
 
-The `measure_value` is also populated when `blood_pressure` measurements are recorded but it looks like 4 out of 5 of such entries in the `measure_value` are imported from the `systolic` field and the remainder show `0`.
+The `measure_value` is also populated when `blood_pressure` measurements are recorded but it looks like 4 out of 5 times the `measure_value` is imported from the `systolic` field and the remainder show `0`.
 
 Furthermore, when `weight` or `blood_glucose` measurements are selected, the `systolic` and `diastolic` fields are `null` or `0`.
+
+
 
 
 
@@ -829,7 +831,7 @@ Furthermore, when `weight` or `blood_glucose` measurements are selected, the `sy
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzE0MTU2OCw2MDEwMDI1MzEsMjY0Mj
+eyJoaXN0b3J5IjpbMTIxNjQ1MDM1NSw2MDEwMDI1MzEsMjY0Mj
 czMTc1LDEwMjM3ODk2NjUsLTQ1MjUwMjEyNywtMjM4MDAwMTMw
 LC0yNjAxMzY0NTAsMTA2MDU2OTkyMyw5ODY3NTMzNTcsMTkyNz
 Q5ODAwMiw5MTM5NDg5MDEsLTEzMDg1MzAzNDUsMTI4MTkwOTgw
