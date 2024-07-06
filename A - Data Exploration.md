@@ -763,7 +763,14 @@ ee653a96022cc3878e76d196b1667d95beca2db6|2020-10-09|blood_pressure|105|105|68
 abc634a555bbba7d6d6584171fdfa206ebf6c9a0|2020-03-09|blood_pressure|114|114|76
 It looks like that `systolic` value is being used at that `measure_value` 
 
-
+Looking at the null `systolic` and `diastolic` values in the same manner:
+SELECT *
+FROM health.user_logs
+WHERE measure_value!=0 AND measure = 'blood_pressure'
+LIMIT 10;
+```
+**output**
+id|log_date|measure|measure_value|systolic|diastolic
 
 
 
@@ -787,7 +794,7 @@ It looks like that `systolic` value is being used at that `measure_value`
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODcwNjI2NCwtNDUyNTAyMTI3LC0yMz
+eyJoaXN0b3J5IjpbMTE0MTIxNjExMiwtNDUyNTAyMTI3LC0yMz
 gwMDAxMzAsLTI2MDEzNjQ1MCwxMDYwNTY5OTIzLDk4Njc1MzM1
 NywxOTI3NDk4MDAyLDkxMzk0ODkwMSwtMTMwODUzMDM0NSwxMj
 gxOTA5ODAyLDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMjk4NzYy
