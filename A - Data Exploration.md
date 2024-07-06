@@ -669,7 +669,11 @@ blood_glucose|108|287
 blood_glucose|123|283
 blood_glucose|125|282
 
-
+```
+```
+**output**
+measure|systolic_value|frequency|
+---|---|---|
  # A4 Summary Statistics
  # A5 Distribution Functions
  # A6 Summary 
@@ -680,11 +684,11 @@ blood_glucose|125|282
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0MjIxNjIxLDk4Njc1MzM1NywxOTI3ND
-k4MDAyLDkxMzk0ODkwMSwtMTMwODUzMDM0NSwxMjgxOTA5ODAy
-LDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMjk4NzYyLC0xNDI0OT
-cxNTMwLDE0MDAzMTQxMjcsLTE1MDU3NDkyNzMsNTkyMDUzMzA1
-LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2MDc4OSwtNj
-M1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkw
-MTczOF19
+eyJoaXN0b3J5IjpbLTM4OTk2NjU0Myw5ODY3NTMzNTcsMTkyNz
+Q5ODAwMiw5MTM5NDg5MDEsLTEzMDg1MzAzNDUsMTI4MTkwOTgw
+MiwxMTQ2MDI0NzE4LDk2OTUyNjQ2LC01MzI5ODc2MiwtMTQyND
+k3MTUzMCwxNDAwMzE0MTI3LC0xNTA1NzQ5MjczLDU5MjA1MzMw
+NSwxMjEwMTg5NjA3LC0xMDE1OTIxOTA4LDE4NzI4NjA3ODksLT
+YzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4NjgsLTIwNzk5
+MDE3MzhdfQ==
 -->
