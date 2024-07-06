@@ -582,7 +582,9 @@ FROM health.user_logs;
 count|
  ---|
 43891|
-Unique column count (use the `COUNT DISTINCT` to take a look at how many unique `id` values there are in this dataset):
+
+### Unique column count
+Use the `COUNT DISTINCT` to take a look at how many unique `id` values there are in this dataset.
 ```
 SELECT COUNT(DISTINCT id)
 FROM health.user_logs;
@@ -592,7 +594,9 @@ count|
  ---|
 554|
 This gives us a feel for how many unique users there are.
-## Single Column Frequency Counts
+
+### Single Column Frequency Counts
+Take a look at the most frequent values within this column using a `GROUP BY` and `ORDER BY DESC` combo from the last tutorial - let’s also throw in that percentage column that we went through also!
 
  # A4 Summary Statistics
  # A5 Distribution Functions
@@ -604,11 +608,11 @@ This gives us a feel for how many unique users there are.
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Nzg5NjQ0NSwtMTMwODUzMDM0NSwxMj
-gxOTA5ODAyLDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMjk4NzYy
-LC0xNDI0OTcxNTMwLDE0MDAzMTQxMjcsLTE1MDU3NDkyNzMsNT
-kyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2
-MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OC
-wtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIw
-MjU1MDc4OTNdfQ==
+eyJoaXN0b3J5IjpbNzgzMjc1LC0xMzA4NTMwMzQ1LDEyODE5MD
+k4MDIsMTE0NjAyNDcxOCw5Njk1MjY0NiwtNTMyOTg3NjIsLTE0
+MjQ5NzE1MzAsMTQwMDMxNDEyNywtMTUwNTc0OTI3Myw1OTIwNT
+MzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYwNzg5
+LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC0yMD
+c5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUw
+Nzg5M119
 -->
