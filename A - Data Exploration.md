@@ -767,18 +767,18 @@ Looking at the null `systolic` and `diastolic` values in the same manner:
 ```
 SELECT
 measure,
-systolic,
 COUNT(*) as frequency
 FROM health.user_logs
-WHERE systolic=0
-GROUP BY measure,systolic
+WHERE systolic IS NULL
+GROUP BY measure
 ORDER BY frequency DESC
 LIMIT 5;
 ```
 **output**
-id|log_date|measure|measure_value|systolic|diastolic
-
-
+measure|frequency
+---|---|
+blood_glucose|25580
+weight|443
 
 
 
@@ -800,11 +800,11 @@ id|log_date|measure|measure_value|systolic|diastolic
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzc4OTY2NSwtNDUyNTAyMTI3LC0yMz
-gwMDAxMzAsLTI2MDEzNjQ1MCwxMDYwNTY5OTIzLDk4Njc1MzM1
-NywxOTI3NDk4MDAyLDkxMzk0ODkwMSwtMTMwODUzMDM0NSwxMj
-gxOTA5ODAyLDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMjk4NzYy
-LC0xNDI0OTcxNTMwLDE0MDAzMTQxMjcsLTE1MDU3NDkyNzMsNT
-kyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2
-MDc4OV19
+eyJoaXN0b3J5IjpbLTc3MjI2MzM5OSwxMDIzNzg5NjY1LC00NT
+I1MDIxMjcsLTIzODAwMDEzMCwtMjYwMTM2NDUwLDEwNjA1Njk5
+MjMsOTg2NzUzMzU3LDE5Mjc0OTgwMDIsOTEzOTQ4OTAxLC0xMz
+A4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcxOCw5Njk1MjY0
+NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMT
+UwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTky
+MTkwOF19
 -->
