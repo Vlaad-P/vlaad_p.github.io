@@ -608,7 +608,7 @@ FROM health.user_logs
 GROUP BY measure
 ORDER BY percentage DESC;
 ```
-**output
+**output**
 measure|frequency|percentage|
 ---|---|---|
 blood_glucose|38692|88.15
@@ -644,8 +644,19 @@ d696925de5e9297694ef32a1c9871f3629bec7e5|597|1.36
 
 ### Individual Column Distributions
 What are the most frequent values for each of the three measurement columns? ( `measure_value`,`systolic`,`diastolic`)
-
-
+```
+SELECT
+measure,
+measure_value as value,
+COUNT(*) as frequency
+FROM health.user_logs
+GROUP BY measure, measure_value
+ORDER BY frequency DESC
+LIMIT 10;
+```
+**output**
+measure|frequency|percentage|
+---|---|---|
 
 
 
@@ -661,11 +672,11 @@ What are the most frequent values for each of the three measurement columns? ( `
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzQ5ODAwMiw5MTM5NDg5MDEsLTEzMD
-g1MzAzNDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2
-LC01MzI5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNT
-A1NzQ5MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIx
-OTA4LDE4NzI4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLD
-EwMTU0MDg4NjgsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4
-MzU5NDg5M119
+eyJoaXN0b3J5IjpbMTg1MjAxMTU1LDE5Mjc0OTgwMDIsOTEzOT
+Q4OTAxLC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcx
+OCw5Njk1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMD
+MxNDEyNywtMTUwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYw
+NywtMTAxNTkyMTkwOCwxODcyODYwNzg5LC02MzU2ODI5NzksLT
+c0ODEwMzE4MSwxMDE1NDA4ODY4LC0yMDc5OTAxNzM4LDE2Njkx
+OTY3MTJdfQ==
 -->
