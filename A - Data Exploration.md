@@ -760,17 +760,8 @@ ee653a96022cc3878e76d196b1667d95beca2db6|2020-10-09|blood_pressure|105|105|68
 46d921f1111a1d1ad5dd6eb6e4d0533ab61907c9|2020-04-29|blood_pressure|142|142|84
 0f7b13f3f0512e6546b8d2c0d56e564a2408536a|2020-04-07|blood_pressure|131|131|71
 0f7b13f3f0512e6546b8d2c0d56e564a2408536a|2020-04-08|blood_pressure|128|128|77
-abc634a555bbba7d6d6584171fdfa206ebf6c9a0|
-
-2020-03-09
-
-blood_pressure
-
-114
-
-114
-
-76
+abc634a555bbba7d6d6584171fdfa206ebf6c9a0|2020-03-09|blood_pressure|114|114|76
+It looks like that `systolic` value is being used at that `measure_value` 
 
 
 
@@ -796,7 +787,7 @@ blood_pressure
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzU1MDU2MiwtNDUyNTAyMTI3LC0yMz
+eyJoaXN0b3J5IjpbMTA4ODcwNjI2NCwtNDUyNTAyMTI3LC0yMz
 gwMDAxMzAsLTI2MDEzNjQ1MCwxMDYwNTY5OTIzLDk4Njc1MzM1
 NywxOTI3NDk4MDAyLDkxMzk0ODkwMSwtMTMwODUzMDM0NSwxMj
 gxOTA5ODAyLDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMjk4NzYy
