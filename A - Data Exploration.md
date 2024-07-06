@@ -596,7 +596,8 @@ count|
 This gives us a feel for how many unique users there are.
 
 ### Single Column Frequency Counts
-Takes a look at the most frequent values within a column (`measure`) using a `GROUP BY` and `ORDER BY DESC` combo + the additional percentage column.
+What is the most frequent measurement taken?
+Use a column (`measure`) using a `GROUP BY` and `ORDER BY DESC` combo + the additional percentage column.
 ```
 SELECT
 measure,
@@ -625,7 +626,7 @@ blood_pressure|2417|5.51
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTA0NjUzMCw5MTM5NDg5MDEsLTEzMD
+eyJoaXN0b3J5IjpbMTcxMjU5NDU0Nyw5MTM5NDg5MDEsLTEzMD
 g1MzAzNDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2
 LC01MzI5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNT
 A1NzQ5MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIx
