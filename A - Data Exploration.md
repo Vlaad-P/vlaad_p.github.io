@@ -596,7 +596,9 @@ count|
 This gives us a feel for how many unique users there are.
 
 ### Single Column Frequency Counts
-Take a look at the most frequent values within this column using a `GROUP BY` and `ORDER BY DESC` combo from the last tutorial - let’s also throw in that percentage column that we went through also!
+Takes a look at the most frequent values within a column using a `GROUP BY` and `ORDER BY DESC` combo + the additional percentage column.
+
+
 
  # A4 Summary Statistics
  # A5 Distribution Functions
@@ -608,11 +610,11 @@ Take a look at the most frequent values within this column using a `GROUP BY` an
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzMjc1LC0xMzA4NTMwMzQ1LDEyODE5MD
-k4MDIsMTE0NjAyNDcxOCw5Njk1MjY0NiwtNTMyOTg3NjIsLTE0
-MjQ5NzE1MzAsMTQwMDMxNDEyNywtMTUwNTc0OTI3Myw1OTIwNT
-MzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYwNzg5
-LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC0yMD
-c5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAyNTUw
-Nzg5M119
+eyJoaXN0b3J5IjpbLTE4MDUwMDExMzAsLTEzMDg1MzAzNDUsMT
+I4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2LC01MzI5ODc2
+MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNTA1NzQ5MjczLD
+U5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIxOTA4LDE4NzI4
+NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4Nj
+gsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5Mywy
+MDI1NTA3ODkzXX0=
 -->
