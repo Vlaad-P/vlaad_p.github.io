@@ -706,6 +706,16 @@ LIMIT 10;
 **output**
 measure|diastolic_value|frequency|
 ---|---|---|
+blood_glucose|_null_|25580
+blood_glucose|0|13110
+weight|0|2339
+weight|_null_|443
+blood_pressure|80|156
+blood_pressure|79|124
+blood_pressure|81|119
+blood_pressure|78|110
+blood_pressure|73|109
+blood_pressure|77|109
 
  # A4 Summary Statistics
  # A5 Distribution Functions
@@ -717,11 +727,11 @@ measure|diastolic_value|frequency|
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzMzOTg3MTgsMTA2MDU2OTkyMyw5OD
-Y3NTMzNTcsMTkyNzQ5ODAwMiw5MTM5NDg5MDEsLTEzMDg1MzAz
-NDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2LC01Mz
-I5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNTA1NzQ5
-MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIxOTA4LD
-E4NzI4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0
-MDg4NjhdfQ==
+eyJoaXN0b3J5IjpbLTI2MDEzNjQ1MCwxMDYwNTY5OTIzLDk4Nj
+c1MzM1NywxOTI3NDk4MDAyLDkxMzk0ODkwMSwtMTMwODUzMDM0
+NSwxMjgxOTA5ODAyLDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMj
+k4NzYyLC0xNDI0OTcxNTMwLDE0MDAzMTQxMjcsLTE1MDU3NDky
+NzMsNTkyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMT
+g3Mjg2MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQw
+ODg2OF19
 -->
