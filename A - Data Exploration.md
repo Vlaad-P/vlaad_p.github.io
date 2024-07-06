@@ -597,7 +597,17 @@ This gives us a feel for how many unique users there are.
 
 ### Single Column Frequency Counts
 Takes a look at the most frequent values within a column (`measure`) using a `GROUP BY` and `ORDER BY DESC` combo + the additional percentage column.
-
+```
+SELECT
+measure,
+COUNT(*) as frequency,
+ROUND(
+100*COUNT(*)::NUMERIC / SUM(COUNT(*)) OVER (),
+2) as percentage
+FROM health.user_logs
+GROUP BY measure
+ORDER BY percentage DESC;
+```
 
 
  # A4 Summary Statistics
@@ -610,11 +620,11 @@ Takes a look at the most frequent values within a column (`measure`) using a `GR
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzOTQ4OTAxLC0xMzA4NTMwMzQ1LDEyOD
-E5MDk4MDIsMTE0NjAyNDcxOCw5Njk1MjY0NiwtNTMyOTg3NjIs
-LTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMTUwNTc0OTI3Myw1OT
-IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
-Nzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC
-0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAy
-NTUwNzg5M119
+eyJoaXN0b3J5IjpbLTE1OTMxMzk0NCw5MTM5NDg5MDEsLTEzMD
+g1MzAzNDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2
+LC01MzI5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNT
+A1NzQ5MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIx
+OTA4LDE4NzI4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLD
+EwMTU0MDg4NjgsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4
+MzU5NDg5M119
 -->
