@@ -549,8 +549,9 @@ Animation|6.62
 Classics|5.72
 Comedy|5.82
 
- # A3 Identifying Duplicate Records
-## 1 - Dataset Inspection
+ # A3 Data cleaning
+ 
+## 1- Dataset inspection
 
 View the first 10 rows from the `health.user_logs` table:
 ```
@@ -679,11 +680,11 @@ blood_glucose|125|282
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2NzUzMzU3LDE5Mjc0OTgwMDIsOTEzOT
-Q4OTAxLC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcx
-OCw5Njk1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMD
-MxNDEyNywtMTUwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYw
-NywtMTAxNTkyMTkwOCwxODcyODYwNzg5LC02MzU2ODI5NzksLT
-c0ODEwMzE4MSwxMDE1NDA4ODY4LC0yMDc5OTAxNzM4LDE2Njkx
-OTY3MTJdfQ==
+eyJoaXN0b3J5IjpbNzY0MjIxNjIxLDk4Njc1MzM1NywxOTI3ND
+k4MDAyLDkxMzk0ODkwMSwtMTMwODUzMDM0NSwxMjgxOTA5ODAy
+LDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMjk4NzYyLC0xNDI0OT
+cxNTMwLDE0MDAzMTQxMjcsLTE1MDU3NDkyNzMsNTkyMDUzMzA1
+LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2MDc4OSwtNj
+M1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OCwtMjA3OTkw
+MTczOF19
 -->
