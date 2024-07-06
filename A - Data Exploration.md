@@ -670,6 +670,14 @@ blood_glucose|123|283
 blood_glucose|125|282
 
 ```
+SELECT
+measure,
+systolic as systolic_value,
+COUNT(*) as frequency
+FROM health.user_logs
+GROUP BY measure, systolic_value
+ORDER BY frequency DESC
+LIMIT 10;
 ```
 **output**
 measure|systolic_value|frequency|
@@ -684,7 +692,7 @@ measure|systolic_value|frequency|
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTk2NjU0Myw5ODY3NTMzNTcsMTkyNz
+eyJoaXN0b3J5IjpbMTA2MDU2OTkyMyw5ODY3NTMzNTcsMTkyNz
 Q5ODAwMiw5MTM5NDg5MDEsLTEzMDg1MzAzNDUsMTI4MTkwOTgw
 MiwxMTQ2MDI0NzE4LDk2OTUyNjQ2LC01MzI5ODc2MiwtMTQyND
 k3MTUzMCwxNDAwMzE0MTI3LC0xNTA1NzQ5MjczLDU5MjA1MzMw
