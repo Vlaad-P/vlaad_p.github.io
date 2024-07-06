@@ -717,8 +717,9 @@ measure|measure_value|frequency|
 blood_pressure|0|562
 blood_glucose|0|8
 weight|0|2
-Most of those `measure_value = 0` are occuring when `measure = 'blood_pressure'`
+Most of those `measure_value = 0` are occurring when `measure = 'blood_pressure'`
 Inspecting a few rows for both of these conditions:
+
 
 
 
@@ -749,7 +750,7 @@ Inspecting a few rows for both of these conditions:
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzg2MzE4MSwtMjM4MDAwMTMwLC0yNj
+eyJoaXN0b3J5IjpbLTQ1MjUwMjEyNywtMjM4MDAwMTMwLC0yNj
 AxMzY0NTAsMTA2MDU2OTkyMyw5ODY3NTMzNTcsMTkyNzQ5ODAw
 Miw5MTM5NDg5MDEsLTEzMDg1MzAzNDUsMTI4MTkwOTgwMiwxMT
 Q2MDI0NzE4LDk2OTUyNjQ2LC01MzI5ODc2MiwtMTQyNDk3MTUz
