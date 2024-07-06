@@ -572,7 +572,15 @@ d14df0c8c1a5f172476b2a1b1f53cf23c6992027|2020-10-15|blood_pressure|140|140|113
 0efe1f378aec122877e5f24f204ea70709b1f5f8|2020-10-07|blood_glucose|138|0|0|
 054250c692e07a9fa9e62e345231df4b54ff435d|2020-10-04|blood_glucose|210|null|null
 
-
+Records count:
+```
+SELECT COUNT(*)
+FROM health.user_logs;
+```
+**output:**
+count|
+ ---|
+43891|
 
 
  # A4 Summary Statistics
@@ -585,7 +593,7 @@ d14df0c8c1a5f172476b2a1b1f53cf23c6992027|2020-10-15|blood_pressure|140|140|113
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTA4ODgyLC0xMzA4NTMwMzQ1LDEyOD
+eyJoaXN0b3J5IjpbNjkwMTIxODQzLC0xMzA4NTMwMzQ1LDEyOD
 E5MDk4MDIsMTE0NjAyNDcxOCw5Njk1MjY0NiwtNTMyOTg3NjIs
 LTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMTUwNTc0OTI3Myw1OT
 IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
