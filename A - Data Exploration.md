@@ -809,7 +809,7 @@ The `measure_value` is also populated when `blood_pressure` measurements are rec
 
 Furthermore, when `weight` or `blood_glucose` measurements are selected, the `systolic` and `diastolic` fields are `null` or `0`.
 
-
+## 2- How To Deal With Duplicates
 
 
 
@@ -831,11 +831,11 @@ Furthermore, when `weight` or `blood_glucose` measurements are selected, the `sy
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDAyMjQ5MTMsMTIxNjQ1MDM1NSw2MD
-EwMDI1MzEsMjY0MjczMTc1LDEwMjM3ODk2NjUsLTQ1MjUwMjEy
-NywtMjM4MDAwMTMwLC0yNjAxMzY0NTAsMTA2MDU2OTkyMyw5OD
-Y3NTMzNTcsMTkyNzQ5ODAwMiw5MTM5NDg5MDEsLTEzMDg1MzAz
-NDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2LC01Mz
-I5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNTA1NzQ5
-MjczXX0=
+eyJoaXN0b3J5IjpbLTIwNTU5MTI5LC0yMTQwMjI0OTEzLDEyMT
+Y0NTAzNTUsNjAxMDAyNTMxLDI2NDI3MzE3NSwxMDIzNzg5NjY1
+LC00NTI1MDIxMjcsLTIzODAwMDEzMCwtMjYwMTM2NDUwLDEwNj
+A1Njk5MjMsOTg2NzUzMzU3LDE5Mjc0OTgwMDIsOTEzOTQ4OTAx
+LC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcxOCw5Nj
+k1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEy
+N119
 -->
