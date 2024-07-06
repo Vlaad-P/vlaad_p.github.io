@@ -719,8 +719,15 @@ blood_glucose|0|8
 weight|0|2
 Most of those `measure_value = 0` are occurring when `measure = 'blood_pressure'`
 Inspecting a few rows for both of these conditions:
-
-
+```
+SELECT *
+FROM health.user_logs
+WHERE measure_value=0 AND measure LIKE 'blood_pressure'
+LIMIT 10;
+```
+**output**
+id|measure_value|frequency|
+---|---|---
 
 
 
@@ -750,11 +757,11 @@ Inspecting a few rows for both of these conditions:
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjUwMjEyNywtMjM4MDAwMTMwLC0yNj
-AxMzY0NTAsMTA2MDU2OTkyMyw5ODY3NTMzNTcsMTkyNzQ5ODAw
-Miw5MTM5NDg5MDEsLTEzMDg1MzAzNDUsMTI4MTkwOTgwMiwxMT
-Q2MDI0NzE4LDk2OTUyNjQ2LC01MzI5ODc2MiwtMTQyNDk3MTUz
-MCwxNDAwMzE0MTI3LC0xNTA1NzQ5MjczLDU5MjA1MzMwNSwxMj
-EwMTg5NjA3LC0xMDE1OTIxOTA4LDE4NzI4NjA3ODksLTYzNTY4
-Mjk3OV19
+eyJoaXN0b3J5IjpbMTE2MjA5NzE1NiwtNDUyNTAyMTI3LC0yMz
+gwMDAxMzAsLTI2MDEzNjQ1MCwxMDYwNTY5OTIzLDk4Njc1MzM1
+NywxOTI3NDk4MDAyLDkxMzk0ODkwMSwtMTMwODUzMDM0NSwxMj
+gxOTA5ODAyLDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMjk4NzYy
+LC0xNDI0OTcxNTMwLDE0MDAzMTQxMjcsLTE1MDU3NDkyNzMsNT
+kyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2
+MDc4OV19
 -->
