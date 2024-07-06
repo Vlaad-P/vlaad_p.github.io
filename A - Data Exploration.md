@@ -698,7 +698,8 @@ _null_|26023
 80|156
 79|124
 81|119
-Further inspecting the `null` and `0` values. 
+Further inspecting the `null` and `0` values by using `WHERE`. 
+Deep dive into `measure_value = 0`
  # A4 Summary Statistics
  # A5 Distribution Functions
  # A6 Summary 
@@ -709,7 +710,7 @@ Further inspecting the `null` and `0` values.
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjI3MjM4MywtMjYwMTM2NDUwLDEwNj
+eyJoaXN0b3J5IjpbMTUwMDUwNjcxNiwtMjYwMTM2NDUwLDEwNj
 A1Njk5MjMsOTg2NzUzMzU3LDE5Mjc0OTgwMDIsOTEzOTQ4OTAx
 LC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcxOCw5Nj
 k1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEy
