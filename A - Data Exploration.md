@@ -798,7 +798,7 @@ weight|443
 Looks like `systolic` and `diastolic` only have non-null records when `measure = 'blood_pressure'`
 
 So how does this relate to our understanding of the data?
-
+The dataset has 3 
 
 
 
@@ -819,7 +819,7 @@ So how does this relate to our understanding of the data?
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2MzM1NzAwLDEwMjM3ODk2NjUsLTQ1Mj
+eyJoaXN0b3J5IjpbODM3NTk0OTIyLDEwMjM3ODk2NjUsLTQ1Mj
 UwMjEyNywtMjM4MDAwMTMwLC0yNjAxMzY0NTAsMTA2MDU2OTky
 Myw5ODY3NTMzNTcsMTkyNzQ5ODAwMiw5MTM5NDg5MDEsLTEzMD
 g1MzAzNDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2
