@@ -799,7 +799,7 @@ Looks like `systolic` and `diastolic` only have non-null records when `measure =
 
 So how does this relate to our understanding of the data?
 
-The dataset contains 43,891 records of health measurements from 554 users. It stores their user id, date the measurement was taken on, the measures selected and their values. 
+The dataset contains 43,891 records of health measurements from 554 users. It stores their user id, date the measurement was taken on, the measures selected and their values. Worth noting that more than 50% of the records are from only 1 id. 
 
 There are 3 possible measurements: `weight`, `blood_glucose` and `blood_pressure`. Values are recorded in the following 3 fields: `measure_value`, `systolic` and `diastolic`.  `blood_glucose` is by far the most frequent measurement taken (88%).
 
@@ -831,11 +831,11 @@ Furthermore, when `weight` or `blood_glucose` measurements are selected, the `sy
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjQ1MDM1NSw2MDEwMDI1MzEsMjY0Mj
-czMTc1LDEwMjM3ODk2NjUsLTQ1MjUwMjEyNywtMjM4MDAwMTMw
-LC0yNjAxMzY0NTAsMTA2MDU2OTkyMyw5ODY3NTMzNTcsMTkyNz
-Q5ODAwMiw5MTM5NDg5MDEsLTEzMDg1MzAzNDUsMTI4MTkwOTgw
-MiwxMTQ2MDI0NzE4LDk2OTUyNjQ2LC01MzI5ODc2MiwtMTQyND
-k3MTUzMCwxNDAwMzE0MTI3LC0xNTA1NzQ5MjczLDU5MjA1MzMw
-NV19
+eyJoaXN0b3J5IjpbLTIxNDAyMjQ5MTMsMTIxNjQ1MDM1NSw2MD
+EwMDI1MzEsMjY0MjczMTc1LDEwMjM3ODk2NjUsLTQ1MjUwMjEy
+NywtMjM4MDAwMTMwLC0yNjAxMzY0NTAsMTA2MDU2OTkyMyw5OD
+Y3NTMzNTcsMTkyNzQ5ODAwMiw5MTM5NDg5MDEsLTEzMDg1MzAz
+NDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2LC01Mz
+I5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNTA1NzQ5
+MjczXX0=
 -->
