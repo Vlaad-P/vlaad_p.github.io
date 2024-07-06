@@ -647,7 +647,7 @@ d696925de5e9297694ef32a1c9871f3629bec7e5|597|1.36
 What are the most frequent values for each of the three measurement columns? ( `measure_value`,`systolic`,`diastolic`)
 ```
 SELECT
-measure_value as value,
+measure_value,
 COUNT(*) as frequency
 FROM health.user_logs
 GROUP BY measure_value
@@ -655,7 +655,7 @@ ORDER BY frequency DESC
 LIMIT 10;
 ```
 **output**
-value|frequency
+measure_value|frequency
 ---|---|
 0|572
 401|433
@@ -670,28 +670,29 @@ value|frequency
 
 ```
 SELECT
-measure,
 systolic as systolic_value,
 COUNT(*) as frequency
 FROM health.user_logs
-GROUP BY measure, systolic_value
+GROUP BY systolic_value
 ORDER BY frequency DESC
-LIMIT 10;
+LIMIT 5;
 ```
 **output**
-measure|systolic_value|frequency|
----|---|---|
-blood_glucose|_null_|25580|
-blood_glucose|0|13111|
-weight|0|2339
-weight|_null_|443
-blood_pressure|120|71
-blood_pressure|123|70
-blood_pressure|128|66
-blood_pressure|127|64
-blood_pressure|130|60
-blood_pressure|119|60
+systolic_value|frequency|
+---|---|
+_null_|26023
+0|15451
+120|
 
+71
+
+123
+
+70
+
+128
+
+66
 ```
 SELECT
 measure,
@@ -726,7 +727,7 @@ blood_pressure|77|109
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTg5NjQzNywtMjYwMTM2NDUwLDEwNj
+eyJoaXN0b3J5IjpbMjAzNDYzNTg1MiwtMjYwMTM2NDUwLDEwNj
 A1Njk5MjMsOTg2NzUzMzU3LDE5Mjc0OTgwMDIsOTEzOTQ4OTAx
 LC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcxOCw5Nj
 k1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEy
