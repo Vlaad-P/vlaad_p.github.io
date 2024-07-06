@@ -643,7 +643,7 @@ d696925de5e9297694ef32a1c9871f3629bec7e5|597|1.36
 6c2f9a8372dac248192c50219c97f9087ab778ba|582|1.33
 
 ### Individual Column Distributions
-What are the most frequent values for each of the three measurement columns?( `measure_value`,``
+What are the most frequent values for each of the three measurement columns? ( `measure_value`,`systolic`,`diastolic`)
 
 
 
@@ -661,11 +661,11 @@ What are the most frequent values for each of the three measurement columns?( `m
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxMjE0ODksOTEzOTQ4OTAxLC0xMzA4NT
-MwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcxOCw5Njk1MjY0Niwt
-NTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMTUwNT
-c0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkw
-OCwxODcyODYwNzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMD
-E1NDA4ODY4LC0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1
-OTQ4OTNdfQ==
+eyJoaXN0b3J5IjpbMTkyNzQ5ODAwMiw5MTM5NDg5MDEsLTEzMD
+g1MzAzNDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2
+LC01MzI5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNT
+A1NzQ5MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIx
+OTA4LDE4NzI4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLD
+EwMTU0MDg4NjgsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4
+MzU5NDg5M119
 -->
