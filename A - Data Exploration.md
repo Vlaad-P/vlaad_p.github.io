@@ -699,7 +699,20 @@ _null_|26023
 79|124
 81|119
 Further inspecting the `null` and `0` values by using `WHERE`. 
-Deep dive into `measure_value = 0`
+Deep dive into `measure_value = 0`:
+```
+SELECT
+measure,
+diastolic as diastolic_value,
+COUNT(*) as frequency
+FROM health.user_logs
+GROUP BY measure, diastolic_value
+ORDER BY frequency DESC
+LIMIT 10;
+```
+**output**
+diastolic_value|frequency|
+---|---|
  # A4 Summary Statistics
  # A5 Distribution Functions
  # A6 Summary 
@@ -710,11 +723,11 @@ Deep dive into `measure_value = 0`
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDUwNjcxNiwtMjYwMTM2NDUwLDEwNj
-A1Njk5MjMsOTg2NzUzMzU3LDE5Mjc0OTgwMDIsOTEzOTQ4OTAx
-LC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcxOCw5Nj
-k1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEy
-NywtMTUwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMT
-AxNTkyMTkwOCwxODcyODYwNzg5LC02MzU2ODI5NzksLTc0ODEw
-MzE4MV19
+eyJoaXN0b3J5IjpbLTE5Njk0MTc0MTMsLTI2MDEzNjQ1MCwxMD
+YwNTY5OTIzLDk4Njc1MzM1NywxOTI3NDk4MDAyLDkxMzk0ODkw
+MSwtMTMwODUzMDM0NSwxMjgxOTA5ODAyLDExNDYwMjQ3MTgsOT
+Y5NTI2NDYsLTUzMjk4NzYyLC0xNDI0OTcxNTMwLDE0MDAzMTQx
+MjcsLTE1MDU3NDkyNzMsNTkyMDUzMzA1LDEyMTAxODk2MDcsLT
+EwMTU5MjE5MDgsMTg3Mjg2MDc4OSwtNjM1NjgyOTc5LC03NDgx
+MDMxODFdfQ==
 -->
