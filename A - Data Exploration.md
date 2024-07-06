@@ -608,6 +608,26 @@ FROM health.user_logs
 GROUP BY measure
 ORDER BY percentage DESC;
 ```
+**output
+measure|frequency|percentage|
+---|---|---|
+blood_glucose
+
+38692
+
+88.15
+
+weight
+
+2782
+
+6.34
+
+blood_pressure
+
+2417
+
+5.51
 
 
  # A4 Summary Statistics
@@ -620,7 +640,7 @@ ORDER BY percentage DESC;
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTMxMzk0NCw5MTM5NDg5MDEsLTEzMD
+eyJoaXN0b3J5IjpbLTYyNDI5NDE1Miw5MTM5NDg5MDEsLTEzMD
 g1MzAzNDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2
 LC01MzI5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNT
 A1NzQ5MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIx
