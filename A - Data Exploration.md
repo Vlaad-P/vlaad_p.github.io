@@ -693,24 +693,12 @@ LIMIT 10;
 **output**
 diastolic_value|frequency|
 ---|---|
-_null_
-26023
+_null_|26023
+0|15449
+80|156
+79|124
+81|119
 
-0
-
-15449
-
-80
-
-156
-
-79
-
-124
-
-81
-
-119
  # A4 Summary Statistics
  # A5 Distribution Functions
  # A6 Summary 
@@ -721,7 +709,7 @@ _null_
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0MTIxODYyLC0yNjAxMzY0NTAsMTA2MD
+eyJoaXN0b3J5IjpbMTYxMzg0ODE0LC0yNjAxMzY0NTAsMTA2MD
 U2OTkyMyw5ODY3NTMzNTcsMTkyNzQ5ODAwMiw5MTM5NDg5MDEs
 LTEzMDg1MzAzNDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OT
 UyNjQ2LC01MzI5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3
