@@ -809,6 +809,8 @@ The dataset has 3 options to measure: `weight`, `blood_glucose` and `blood_press
 
 
 
+
+
  # A4 Summary Statistics
  # A5 Distribution Functions
  # A6 Summary 
@@ -819,11 +821,11 @@ The dataset has 3 options to measure: `weight`, `blood_glucose` and `blood_press
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0MjczMTc1LDEwMjM3ODk2NjUsLTQ1Mj
-UwMjEyNywtMjM4MDAwMTMwLC0yNjAxMzY0NTAsMTA2MDU2OTky
-Myw5ODY3NTMzNTcsMTkyNzQ5ODAwMiw5MTM5NDg5MDEsLTEzMD
-g1MzAzNDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2
-LC01MzI5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNT
-A1NzQ5MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIx
-OTA4XX0=
+eyJoaXN0b3J5IjpbLTgzODkzNjk3MywyNjQyNzMxNzUsMTAyMz
+c4OTY2NSwtNDUyNTAyMTI3LC0yMzgwMDAxMzAsLTI2MDEzNjQ1
+MCwxMDYwNTY5OTIzLDk4Njc1MzM1NywxOTI3NDk4MDAyLDkxMz
+k0ODkwMSwtMTMwODUzMDM0NSwxMjgxOTA5ODAyLDExNDYwMjQ3
+MTgsOTY5NTI2NDYsLTUzMjk4NzYyLC0xNDI0OTcxNTMwLDE0MD
+AzMTQxMjcsLTE1MDU3NDkyNzMsNTkyMDUzMzA1LDEyMTAxODk2
+MDddfQ==
 -->
