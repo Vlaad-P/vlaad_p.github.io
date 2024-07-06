@@ -647,11 +647,10 @@ d696925de5e9297694ef32a1c9871f3629bec7e5|597|1.36
 What are the most frequent values for each of the three measurement columns? ( `measure_value`,`systolic`,`diastolic`)
 ```
 SELECT
-measure,
 measure_value as value,
 COUNT(*) as frequency
 FROM health.user_logs
-GROUP BY measure, measure_value
+GROUP BY measure_value
 ORDER BY frequency DESC
 LIMIT 10;
 ```
@@ -727,11 +726,11 @@ blood_pressure|77|109
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDEzNjQ1MCwxMDYwNTY5OTIzLDk4Nj
-c1MzM1NywxOTI3NDk4MDAyLDkxMzk0ODkwMSwtMTMwODUzMDM0
-NSwxMjgxOTA5ODAyLDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMj
-k4NzYyLC0xNDI0OTcxNTMwLDE0MDAzMTQxMjcsLTE1MDU3NDky
-NzMsNTkyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMT
-g3Mjg2MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQw
-ODg2OF19
+eyJoaXN0b3J5IjpbLTYxNjc4ODgxNiwtMjYwMTM2NDUwLDEwNj
+A1Njk5MjMsOTg2NzUzMzU3LDE5Mjc0OTgwMDIsOTEzOTQ4OTAx
+LC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcxOCw5Nj
+k1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEy
+NywtMTUwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMT
+AxNTkyMTkwOCwxODcyODYwNzg5LC02MzU2ODI5NzksLTc0ODEw
+MzE4MV19
 -->
