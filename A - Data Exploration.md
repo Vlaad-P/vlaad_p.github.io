@@ -691,11 +691,21 @@ blood_pressure|123|70
 blood_pressure|128|66
 blood_pressure|127|64
 blood_pressure|130|60
-blood_pressure|119
+blood_pressure|119|60
 
-60
-
-
+```
+SELECT
+measure,
+diastolic as diastolic_value,
+COUNT(*) as frequency
+FROM health.user_logs
+GROUP BY measure, diastolic_value
+ORDER BY frequency DESC
+LIMIT 10;
+```
+**output**
+measure|diastolic_value|frequency|
+---|---|---|
 
  # A4 Summary Statistics
  # A5 Distribution Functions
@@ -707,11 +717,11 @@ blood_pressure|119
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTgyOTUyNCwxMDYwNTY5OTIzLDk4Nj
-c1MzM1NywxOTI3NDk4MDAyLDkxMzk0ODkwMSwtMTMwODUzMDM0
-NSwxMjgxOTA5ODAyLDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMj
-k4NzYyLC0xNDI0OTcxNTMwLDE0MDAzMTQxMjcsLTE1MDU3NDky
-NzMsNTkyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMT
-g3Mjg2MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQw
-ODg2OF19
+eyJoaXN0b3J5IjpbLTE0MzMzOTg3MTgsMTA2MDU2OTkyMyw5OD
+Y3NTMzNTcsMTkyNzQ5ODAwMiw5MTM5NDg5MDEsLTEzMDg1MzAz
+NDUsMTI4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2LC01Mz
+I5ODc2MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNTA1NzQ5
+MjczLDU5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIxOTA4LD
+E4NzI4NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0
+MDg4NjhdfQ==
 -->
