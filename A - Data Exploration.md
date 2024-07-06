@@ -581,7 +581,8 @@ FROM health.user_logs;
 count|
  ---|
 43891|
-
+Unique column count:
+use the `COUNT DISTINCT` to take a look at how many unique `id` values there are in this dataset
 
  # A4 Summary Statistics
  # A5 Distribution Functions
@@ -593,7 +594,7 @@ count|
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwMTIxODQzLC0xMzA4NTMwMzQ1LDEyOD
+eyJoaXN0b3J5IjpbNzMzNzYxNjIzLC0xMzA4NTMwMzQ1LDEyOD
 E5MDk4MDIsMTE0NjAyNDcxOCw5Njk1MjY0NiwtNTMyOTg3NjIs
 LTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMTUwNTc0OTI3Myw1OT
 IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
