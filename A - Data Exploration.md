@@ -572,7 +572,8 @@ d14df0c8c1a5f172476b2a1b1f53cf23c6992027|2020-10-15|blood_pressure|140|140|113
 0efe1f378aec122877e5f24f204ea70709b1f5f8|2020-10-07|blood_glucose|138|0|0|
 054250c692e07a9fa9e62e345231df4b54ff435d|2020-10-04|blood_glucose|210|null|null
 
-Records count:
+### Records count:
+
 ```
 SELECT COUNT(*)
 FROM health.user_logs;
@@ -590,7 +591,8 @@ FROM health.user_logs;
 count|
  ---|
 554|
-This gives us a feel for how many unique users there a
+This gives us a feel for how many unique users there are.
+## Single Column Frequency Counts
 
  # A4 Summary Statistics
  # A5 Distribution Functions
@@ -602,11 +604,11 @@ This gives us a feel for how many unique users there a
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2NDcwMjczLC0xMzA4NTMwMzQ1LDEyOD
-E5MDk4MDIsMTE0NjAyNDcxOCw5Njk1MjY0NiwtNTMyOTg3NjIs
-LTE0MjQ5NzE1MzAsMTQwMDMxNDEyNywtMTUwNTc0OTI3Myw1OT
-IwNTMzMDUsMTIxMDE4OTYwNywtMTAxNTkyMTkwOCwxODcyODYw
-Nzg5LC02MzU2ODI5NzksLTc0ODEwMzE4MSwxMDE1NDA4ODY4LC
-0yMDc5OTAxNzM4LDE2NjkxOTY3MTIsLTE3ODM1OTQ4OTMsMjAy
-NTUwNzg5M119
+eyJoaXN0b3J5IjpbLTU1Nzg5NjQ0NSwtMTMwODUzMDM0NSwxMj
+gxOTA5ODAyLDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMjk4NzYy
+LC0xNDI0OTcxNTMwLDE0MDAzMTQxMjcsLTE1MDU3NDkyNzMsNT
+kyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2
+MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OC
+wtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIw
+MjU1MDc4OTNdfQ==
 -->
