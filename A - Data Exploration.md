@@ -655,18 +655,18 @@ ORDER BY frequency DESC
 LIMIT 10;
 ```
 **output**
-measure|value|frequency|
----|---|---|
-blood_pressure|0|562
-blood_glucose|401|433
-blood_glucose|117|350
-blood_glucose|118|307
-blood_glucose|115|290
-blood_glucose|126|290
-blood_glucose|122|289
-blood_glucose|108|287
-blood_glucose|123|283
-blood_glucose|125|282
+value|frequency
+---|---|
+0|572
+401|433
+117|390
+118|346
+123|342
+122|331
+126|326
+120|323
+128|319
+115|319
 
 ```
 SELECT
@@ -726,7 +726,7 @@ blood_pressure|77|109
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjc4ODgxNiwtMjYwMTM2NDUwLDEwNj
+eyJoaXN0b3J5IjpbMTMzOTg5NjQzNywtMjYwMTM2NDUwLDEwNj
 A1Njk5MjMsOTg2NzUzMzU3LDE5Mjc0OTgwMDIsOTEzOTQ4OTAx
 LC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcxOCw5Nj
 k1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEy
