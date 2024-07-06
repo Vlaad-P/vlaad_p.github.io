@@ -717,6 +717,26 @@ measure|measure_value|frequency|
 blood_pressure|0|562
 blood_glucose|0|8
 weight|0|2
+Most of those `measure_value = 0` are occuring when `measure = 'blood_pressure'`
+Inspecting a few rows for both of these conditions:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  # A4 Summary Statistics
@@ -729,11 +749,11 @@ weight|0|2
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODAwMDEzMCwtMjYwMTM2NDUwLDEwNj
-A1Njk5MjMsOTg2NzUzMzU3LDE5Mjc0OTgwMDIsOTEzOTQ4OTAx
-LC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcxOCw5Nj
-k1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMDMxNDEy
-NywtMTUwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYwNywtMT
-AxNTkyMTkwOCwxODcyODYwNzg5LC02MzU2ODI5NzksLTc0ODEw
-MzE4MV19
+eyJoaXN0b3J5IjpbMTcxMzg2MzE4MSwtMjM4MDAwMTMwLC0yNj
+AxMzY0NTAsMTA2MDU2OTkyMyw5ODY3NTMzNTcsMTkyNzQ5ODAw
+Miw5MTM5NDg5MDEsLTEzMDg1MzAzNDUsMTI4MTkwOTgwMiwxMT
+Q2MDI0NzE4LDk2OTUyNjQ2LC01MzI5ODc2MiwtMTQyNDk3MTUz
+MCwxNDAwMzE0MTI3LC0xNTA1NzQ5MjczLDU5MjA1MzMwNSwxMj
+EwMTg5NjA3LC0xMDE1OTIxOTA4LDE4NzI4NjA3ODksLTYzNTY4
+Mjk3OV19
 -->
