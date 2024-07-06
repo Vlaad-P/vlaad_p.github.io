@@ -789,7 +789,14 @@ GROUP BY measure
 ORDER BY frequency DESC
 LIMIT 5;
 ```
-This result confirms that `systolic` only has non-null records when `measure = 'blood_pressure'`
+**output**
+measure|frequency
+---|---|
+blood_glucose|25580
+weight|443
+
+Looks like `systolic` and `diastolic` only have non-null records when `measure = 'blood_pressure'`
+
 
 
 
@@ -809,7 +816,7 @@ This result confirms that `systolic` only has non-null records when `measure = '
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDk0MTU1NjIsMTAyMzc4OTY2NSwtND
+eyJoaXN0b3J5IjpbLTEwNjU3OTg3MjQsMTAyMzc4OTY2NSwtND
 UyNTAyMTI3LC0yMzgwMDAxMzAsLTI2MDEzNjQ1MCwxMDYwNTY5
 OTIzLDk4Njc1MzM1NywxOTI3NDk4MDAyLDkxMzk0ODkwMSwtMT
 MwODUzMDM0NSwxMjgxOTA5ODAyLDExNDYwMjQ3MTgsOTY5NTI2
