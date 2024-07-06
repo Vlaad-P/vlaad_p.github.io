@@ -552,7 +552,14 @@ Comedy|5.82
  # A3 Identifying Duplicate Records
 ## 1 - Dataset Inspection
 
-
+Snapshot to view the first 10 rows from the `health.user_logs` table:
+```
+SELECT *
+FROM health.user_logs
+LIMIT 10;
+```
+**output:**
+id| log date|measure
 
 
 
@@ -567,11 +574,11 @@ Comedy|5.82
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzE1MTg0NSwtMTMwODUzMDM0NSwxMj
-gxOTA5ODAyLDExNDYwMjQ3MTgsOTY5NTI2NDYsLTUzMjk4NzYy
-LC0xNDI0OTcxNTMwLDE0MDAzMTQxMjcsLTE1MDU3NDkyNzMsNT
-kyMDUzMzA1LDEyMTAxODk2MDcsLTEwMTU5MjE5MDgsMTg3Mjg2
-MDc4OSwtNjM1NjgyOTc5LC03NDgxMDMxODEsMTAxNTQwODg2OC
-wtMjA3OTkwMTczOCwxNjY5MTk2NzEyLC0xNzgzNTk0ODkzLDIw
-MjU1MDc4OTNdfQ==
+eyJoaXN0b3J5IjpbLTEwNTIwOTMzMDQsLTEzMDg1MzAzNDUsMT
+I4MTkwOTgwMiwxMTQ2MDI0NzE4LDk2OTUyNjQ2LC01MzI5ODc2
+MiwtMTQyNDk3MTUzMCwxNDAwMzE0MTI3LC0xNTA1NzQ5MjczLD
+U5MjA1MzMwNSwxMjEwMTg5NjA3LC0xMDE1OTIxOTA4LDE4NzI4
+NjA3ODksLTYzNTY4Mjk3OSwtNzQ4MTAzMTgxLDEwMTU0MDg4Nj
+gsLTIwNzk5MDE3MzgsMTY2OTE5NjcxMiwtMTc4MzU5NDg5Mywy
+MDI1NTA3ODkzXX0=
 -->
