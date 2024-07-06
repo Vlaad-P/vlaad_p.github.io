@@ -801,7 +801,9 @@ So how does this relate to our understanding of the data?
 
 The dataset has 3 options to measure: `weight`, `blood_glucose` and `blood_pressure`, and 3 fields to record input: `measure_value`, `systolic` and `diastolic`.
 It has 43,891 records from 554 users with `blood_glucose` being by far the most frequent measurement taken (88%).
-The  `blood_pressure` is recorded in the `systolic`and `diastolic` but 
+The  `blood_pressure` is recorded in the `systolic`and `diastolic` columns while `weight` and `blood_glucose` in the `measure_value`
+
+with valid values but it also gets recorded in the `measure_value` field. 
 
 
 
@@ -823,7 +825,7 @@ The  `blood_pressure` is recorded in the `systolic`and `diastolic` but
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTUyMTU1OSwyNjQyNzMxNzUsMTAyMz
+eyJoaXN0b3J5IjpbLTg2MzQwNzA5NiwyNjQyNzMxNzUsMTAyMz
 c4OTY2NSwtNDUyNTAyMTI3LC0yMzgwMDAxMzAsLTI2MDEzNjQ1
 MCwxMDYwNTY5OTIzLDk4Njc1MzM1NywxOTI3NDk4MDAyLDkxMz
 k0ODkwMSwtMTMwODUzMDM0NSwxMjgxOTA5ODAyLDExNDYwMjQ3
