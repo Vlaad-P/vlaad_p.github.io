@@ -805,7 +805,7 @@ There are 3 possible measurements: `weight`, `blood_glucose` and `blood_pressure
 
 The  `blood_pressure` is recorded in the `systolic`and `diastolic` columns while `weight` and `blood_glucose` in the `measure_value`.
 
-The `measure_value` is also populated when `blood_pressure` measurements are recorded but it looks like 4 out of 5 of such entries in the `measure_value` import the numbers from the `systolic` field and the remainder show `0`.
+The `measure_value` is also populated when `blood_pressure` measurements are recorded but it looks like 4 out of 5 of such entries in the `measure_value` are imported from the `systolic` field and the remainder show `0`.
 
 
 
@@ -829,11 +829,11 @@ The `measure_value` is also populated when `blood_pressure` measurements are rec
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTA1Mjk3MywyNjQyNzMxNzUsMTAyMz
-c4OTY2NSwtNDUyNTAyMTI3LC0yMzgwMDAxMzAsLTI2MDEzNjQ1
-MCwxMDYwNTY5OTIzLDk4Njc1MzM1NywxOTI3NDk4MDAyLDkxMz
-k0ODkwMSwtMTMwODUzMDM0NSwxMjgxOTA5ODAyLDExNDYwMjQ3
-MTgsOTY5NTI2NDYsLTUzMjk4NzYyLC0xNDI0OTcxNTMwLDE0MD
-AzMTQxMjcsLTE1MDU3NDkyNzMsNTkyMDUzMzA1LDEyMTAxODk2
-MDddfQ==
+eyJoaXN0b3J5IjpbNjAxMDAyNTMxLDI2NDI3MzE3NSwxMDIzNz
+g5NjY1LC00NTI1MDIxMjcsLTIzODAwMDEzMCwtMjYwMTM2NDUw
+LDEwNjA1Njk5MjMsOTg2NzUzMzU3LDE5Mjc0OTgwMDIsOTEzOT
+Q4OTAxLC0xMzA4NTMwMzQ1LDEyODE5MDk4MDIsMTE0NjAyNDcx
+OCw5Njk1MjY0NiwtNTMyOTg3NjIsLTE0MjQ5NzE1MzAsMTQwMD
+MxNDEyNywtMTUwNTc0OTI3Myw1OTIwNTMzMDUsMTIxMDE4OTYw
+N119
 -->
